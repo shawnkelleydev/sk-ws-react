@@ -1,34 +1,47 @@
 * {
   margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  transition: all 150ms ease;
 }
 
 body {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.App,
+.content,
+#project-menu,
+.project-ul,
+#home {
+  max-width: 900px;
 }
 
 body,
 header,
-div {
+div,
+footer,
+footer ul,
+#root {
   display: flex;
 }
 
 body,
-div {
+div,
+#root {
   flex-direction: column;
+  align-items: center;
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 header div {
@@ -36,8 +49,9 @@ header div {
   align-items: center;
 }
 
-#logo {
+.logo {
   height: 50px;
+  width: auto;
 }
 
 ul {
@@ -45,15 +59,32 @@ ul {
   padding: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  width: fit-content;
+  text-transform: capitalize;
+}
+
 h1 {
   background: yellow;
-  width: auto;
+}
+
+h2 {
+  background: aqua;
+}
+
+.logo {
+  margin: 5px;
 }
 
 #ham {
   padding: 0;
   height: 80px;
-  width: 80px;
+  width: 90px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,9 +95,228 @@ h1 {
   background-color: black;
   height: 8px;
   margin: 3px;
-  width: 70%;
+  width: 60%;
 }
 
 nav {
   display: none;
+}
+
+.fam {
+  max-width: 100vw;
+  border-radius: 20px;
+}
+
+header a,
+#project-menu a {
+  text-decoration: none;
+}
+
+header h1 {
+  font-size: 1.8em;
+}
+
+a {
+  color: black;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+#learn-more {
+  margin: 50px;
+}
+
+.content {
+  width: 95vw;
+}
+
+.content h2 {
+  margin: 20px 0;
+}
+
+.project-ul {
+  margin-top: 30px;
+  width: 95vw;
+}
+
+.project-ul > li:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.project-ul h1,
+.project-ul h2 {
+  margin: 10px 0;
+}
+
+.project-ul p {
+  margin: 20px 0;
+}
+
+.project-ul h1 {
+  text-align: center;
+}
+
+#home,
+#project-menu {
+  width: 95vw;
+}
+
+#home h1,
+#home h2 {
+  margin: 20px;
+  text-align: center;
+}
+
+#home a {
+  width: fit-content;
+}
+
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#skills li {
+  width: fit-content;
+}
+
+#skills ul li {
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+footer ul {
+  height: auto;
+  text-transform: capitalize;
+  flex-direction: column-reverse;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+#content-parent {
+  min-height: 100vh;
+}
+
+#project-menu {
+  text-transform: capitalize;
+}
+
+#project-menu ul {
+  margin: 10px 0;
+}
+
+#project-menu li {
+  padding: 10px;
+}
+
+main p {
+  text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.preview {
+  width: 80vw;
+  max-width: 300px;
+  height: 80vh;
+  max-height: 650px;
+  border-radius: 30px;
+  border: 5px solid rgb(42, 42, 42);
+}
+
+.bottom20 {
+  margin-bottom: 20px;
+}
+
+button {
+  width: 200px;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.tech {
+  margin-right: 10px;
+}
+
+.btns {
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 600px) {
+  #ham {
+    display: none;
+  }
+
+  a:hover,
+  .project:hover,
+  button:hover {
+    background-color: yellow;
+    color: black;
+  }
+
+  nav {
+    display: block;
+    width: fit-content;
+    text-align: right;
+  }
+
+  nav a {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  #project-menu,
+  .content,
+  .project-ul {
+    display: grid;
+    align-items: flex-start;
+  }
+
+  #project-menu,
+  .project-ul {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  #project-menu ul,
+  .project-ul > li {
+    width: 300px;
+  }
+
+  #project-menu ul > li:first-child {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content {
+    grid-template-columns: 200px auto;
+  }
+
+  #about {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  #skills {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  #skills li {
+    width: 100%;
+  }
 }

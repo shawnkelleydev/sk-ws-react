@@ -10,6 +10,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Project from "./components/Project";
+import ProjectMenu from "./components/ProjectMenu";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -18,7 +19,7 @@ ReactDOM.render(
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="projects" element={<Projects />}>
-          <Route index element={<Project />} />
+          <Route index element={<ProjectMenu />} />
           <Route path=":project" element={<Project />} />
         </Route>
         <Route

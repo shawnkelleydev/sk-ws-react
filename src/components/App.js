@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
-import logo from "../img/logo-black-2.png";
+import logoblack from "../img/logo-black-3.png";
 
 //components
 // import Home from "./Home";
@@ -12,10 +12,12 @@ function App() {
     <div className="App">
       <header>
         <div>
-          <img src={logo} alt="logo" id="logo" />
+          <img src={logoblack} alt="logo" className="logo" />
           <span>
-            <h1>Shawn Kelley</h1>
-            <h3>Developer</h3>
+            <NavLink to="/">
+              <h1>Shawn Kelley</h1>
+            </NavLink>
+            <h3>Developer. Musician.</h3>
           </span>
         </div>
         <ul id="ham">
@@ -28,7 +30,19 @@ function App() {
           <NavLink to="/projects">Projects</NavLink>
         </nav>
       </header>
-      <Outlet />
+      {/* #content-parent used for sticky footer */}
+      <div id="content-parent">
+        <Outlet />
+      </div>
+
+      <footer>
+        <ul>
+          <li>all rights reserved</li>
+          <li>copyright © 2021 shawn kelley</li>
+          <li>-</li>
+          <li>site developed with react / react router</li>
+        </ul>
+      </footer>
     </div>
   );
 }

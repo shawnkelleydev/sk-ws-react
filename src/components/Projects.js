@@ -1,9 +1,8 @@
 import { Outlet } from "react-router-dom";
 
-const Projects = (props) => {
+const Projects = () => {
   return (
     <div>
-      <h2>Projects</h2>
       <Outlet />
     </div>
   );
