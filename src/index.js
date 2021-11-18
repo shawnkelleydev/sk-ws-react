@@ -1,9 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
+import App from "./components/App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+//components
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Project from "./components/Project";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -12,8 +18,17 @@ ReactDOM.render(
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="projects" element={<Projects />}>
-          <Route path=":project" elemnet={<Project />} />
+          <Route index element={<Project />} />
+          <Route path=":project" element={<Project />} />
         </Route>
+        <Route
+          path="*"
+          element={
+            <main style={{ padding: "1rem" }}>
+              <p>Man down! 404</p>
+            </main>
+          }
+        />
       </Route>
     </Routes>
   </BrowserRouter>,
