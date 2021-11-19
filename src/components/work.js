@@ -13,7 +13,7 @@ export const projects = [
     year: 2021,
     name: "first light",
     description:
-      "A tool for Christians to stdev their day, First Light includes a randomly-selected verse from a long curated list, a task manager, a note-taking zone, a prayer-list, and a built-in ESV bible. It even shows you the current weather in your area if you provide permission to access your location (see the live site via the link below).",
+      "A tool for Christians to start their day, First Light includes a randomly-selected verse from a long curated list, a task manager, a note-taking zone, a prayer-list, and a built-in ESV bible. It even shows you the current weather in your area if you provide permission to access your location (see the live site via the link below).",
     tag: "First Light.  Find your way for the day.",
     technologies: ["HTML", "CSS", "JavaScript", "Fetch API"],
     live_link: "https://shawnkelleydev.github.io/FirstLight/",
@@ -43,7 +43,7 @@ export const projects = [
     name: "React Gallery",
     description: "A React / React Router V5 integration with Flickr API.",
     tag: "CSS for this project was provided by Team Treehouse.",
-    technologies: ["React", "React Router", "JSX", "Axios API"],
+    technologies: ["React", "React Router", "JSX", "Axios"],
     live_link: "https://gifted-payne-38443a.netlify.app",
     github_link: "https://github.com/shawnkelleydev/techdegree-project-7-react",
   },
@@ -51,7 +51,7 @@ export const projects = [
     year: 2021,
     name: "Express Portfolio",
     description:
-      "An Express / Pug portfolio project.  It's running on Heroku, so there may be a slight delay of the Dyno is sleeping.",
+      "An Express / Pug portfolio project.  It's running on Heroku, so there may be a slight delay if the Dyno is sleeping.",
     tag: "CSS for this project was provided by Team Treehouse.",
     technologies: ["Node.js", "Express", "Pug"],
     live_link: "https://sk-express-portfolio-tth.herokuapp.com",
@@ -63,7 +63,7 @@ export const projects = [
     description:
       "An API project with a gallery, search functionality, modals, and modal navigation.",
     tag: "HTML and CSS for this project were provided by Team Treehouse.",
-    technologies: ["HTML", "CSS", "JavaScript", "Fetch API"],
+    technologies: ["HTML", "CSS", "JavaScript", "Fetch"],
     live_link: "https://shawnkelleydev.github.io/techdegree-project-5/",
     github_link: "https://github.com/shawnkelleydev/techdegree-project-5",
   },
