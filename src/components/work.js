@@ -1,6 +1,16 @@
 export const projects = [
   {
     year: 2021,
+    name: "ShawnKelley.dev",
+    description:
+      "A custom React / React Router V6 portfolio site with dynamic routing / data population.",
+    tag: "React is fun when you finally understand it!",
+    technologies: ["React", "React Router V6", "JSX"],
+    live_link: "https://www.shawnkelley.dev",
+    github_link: "https://github.com/shawnkelleyart/sk-ws-react",
+  },
+  {
+    year: 2021,
     name: "first light",
     description:
       "A tool for Christians to start their day, First Light includes a randomly-selected verse from a long curated list, a task manager, a note-taking zone, a prayer-list, and a built-in ESV bible. It even shows you the current weather in your area if you provide permission to access your location (see the live site via the link below).",
@@ -21,7 +31,7 @@ export const projects = [
   },
   {
     year: 2021,
-    name: "whitney kelley",
+    name: "WhitneyKelley.com",
     description:
       "Whitney Kelley is a professional flutist and teacher in the Denver metro area.  She's also my wife!  Her website features an interactive private lesson information section, and it automatically removes events from her performance schedule as they expire.",
     technologies: ["HTML", "CSS", "JavaScript"],
@@ -63,7 +73,7 @@ export const projects = [
     name: "OOP game",
     description:
       "An OOP project in the form of a responsive phrase-hunting game with keyboard functionality.",
-    tag: "Phrase Hunter's css was provided by Team Treehouse and not designed to be mobile-responsive, so a wider-than-phone screen is recommended.",
+    tag: "Phrase Hunter's CSS was provided by Team Treehouse and not designed to be mobile-friendly, so a wider-than-phone screen is recommended.",
     technologies: ["HTML", "CSS", "JavaScript"],
     live_link: "https://shawnkelleyart.github.io/techdegree-project-4/",
     github_link: "https://github.com/shawnkelleyart/techdegree-project-4",

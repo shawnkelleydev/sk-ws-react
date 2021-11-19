@@ -98,6 +98,10 @@ button {
 
 h1 {
   font-size: 1.8em;
+}
+
+h1,
+h3 {
   color: var(--one);
 }
 
@@ -135,7 +139,8 @@ h3 {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   text-transform: uppercase;
 }
 
