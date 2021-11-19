@@ -6,6 +6,12 @@
   transition: all 150ms ease;
 }
 
+:root {
+  --one: rgb(0, 130, 173);
+  --two: rgb(159, 72, 0);
+  --three: rgb(47, 47, 47);
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -70,21 +76,43 @@ h6 {
 
 h1,
 h2 {
-  text-transform: uppercase;
+  color: white;
+  border-radius: 5px;
 }
 
 h1 {
-  background-color: yellow;
+  font-size: 1.8em;
+  background-color: var(--one);
+}
+
+header h1 {
+  font-size: 1.3em;
+}
+
+header h3 {
+  font-size: 1em;
+  padding-left: 10px;
 }
 
 h2 {
-  background-color: aqua;
+  font-size: 1.3em;
+  background-color: var(--three);
 }
 
-#home h2,
+h3 {
+  font-size: 1.1em;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+/* #home h2,
 #home h1 {
   background: none;
-}
+} */
 
 .logo {
   margin: 5px;
@@ -117,7 +145,9 @@ nav {
 }
 
 nav a {
-  background-color: aqua;
+  background-color: var(--three);
+  color: white;
+  font-size: 1.1em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,10 +162,6 @@ nav a {
 header a,
 #project-menu a {
   text-decoration: none;
-}
-
-header h1 {
-  font-size: 1.8em;
 }
 
 a {
@@ -274,6 +300,7 @@ button {
   color: white;
   padding: 20px;
   margin-bottom: 10px;
+  font-size: 1.1em;
 }
 
 .tech {
