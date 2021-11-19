@@ -44,7 +44,7 @@ export const projects = [
     description: "A React / React Router V5 integration with Flickr API.",
     tag: "CSS for this project was provided by Team Treehouse.",
     technologies: ["React", "React Router", "JSX", "Axios API"],
-    live_link: "https://gifted-payne-38443a.netlify.app/pianos",
+    live_link: "https://gifted-payne-38443a.netlify.app",
     github_link: "https://github.com/shawnkelleydev/techdegree-project-7-react",
   },
   {
