@@ -49,6 +49,15 @@ export const projects = [
   },
   {
     year: 2021,
+    name: "Express Portfolio",
+    description: "A React / React Router V5 integration with Flickr API.",
+    tag: "CSS for this project was provided by Team Treehouse.",
+    technologies: ["React", "React Router", "JSX", "Axios API"],
+    live_link: "https://sk-express-portfolio-tth.herokuapp.com",
+    github_link: "https://github.com/shawnkelleydev/techdegree-project-7",
+  },
+  {
+    year: 2021,
     name: "API employee directory",
     description:
       "An API project with a gallery, search functionality, modals, and modal navigation.",
