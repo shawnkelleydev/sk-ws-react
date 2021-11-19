@@ -1,4 +1,5 @@
 import { useParams } from "react-router";
+import { Link } from "react-router-dom";
 import { all } from "./work";
 import hsh from "../img/hsh.jpg";
 import aod from "../img/aod.png";
@@ -7,11 +8,21 @@ const Project = () => {
   const projectName = useParams().project;
   const project = all.filter((item) => item.name === projectName)[0];
   if (!project) {
-    return <p class="error">Man down! 404</p>;
+    return (
+      <div className="error-div">
+        <Link to="/projects" className="error">
+          &larr; back to projects
+        </Link>
+        <p className="error">Man down! 404</p>
+      </div>
+    );
   } else {
     return (
       <ul className="project-ul">
         <li>
+          <Link to="/projects" className="error">
+            &larr; back to projects
+          </Link>
           <h1>{project.name}</h1>
           <h2>{project.year}</h2>
           {project.technologies ? (

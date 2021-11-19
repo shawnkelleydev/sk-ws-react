@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./components/App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 //components
 import Home from "./components/Home";
@@ -25,9 +25,12 @@ ReactDOM.render(
         <Route
           path="*"
           element={
-            <main style={{ padding: "1rem" }}>
-              <p>Man down! 404</p>
-            </main>
+            <div className="error-div">
+              <p className="error">Man down! 404</p>
+              <Link to="/projects" className="error">
+                see projects &rarr;
+              </Link>
+            </div>
           }
         />
       </Route>

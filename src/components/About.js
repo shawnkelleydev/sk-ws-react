@@ -38,8 +38,8 @@ const About = () => {
               Shawn lives near Denver with his wife, flutist Whitney Kelley, two
               daughters, and English Springer Spaniel.
             </li>
-            <li>
-              <Link to="/projects">See work &rarr;</Link>
+            <li className="see">
+              <Link to="/projects">see work &rarr;</Link>
             </li>
           </ul>
         </li>

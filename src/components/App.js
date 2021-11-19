@@ -1,4 +1,4 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink, Link, Outlet } from "react-router-dom";
 import logoblack from "../img/logo-black-3.png";
 
 //components
@@ -9,13 +9,13 @@ function App() {
     <div className="App">
       <header>
         <div>
-          <img src={logoblack} alt="logo" className="logo" />
-          <span>
-            <NavLink to="/">
+          <Link to="/" id="logo-link">
+            <img src={logoblack} alt="logo" className="logo" />
+            <span>
               <h1>Shawn Kelley</h1>
-            </NavLink>
-            <h3>Developer. Musician.</h3>
-          </span>
+              <h3>Developer. Musician.</h3>
+            </span>
+          </Link>
         </div>
         <Ham />
         <nav>
