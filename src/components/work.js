@@ -50,7 +50,8 @@ export const projects = [
   {
     year: 2021,
     name: "Express Portfolio",
-    description: "A React / React Router V5 integration with Flickr API.",
+    description:
+      "An Express / Pug portfolio project.  It's running on Heroku, so there may be a slight delay of the Dyno is sleeping.",
     tag: "CSS for this project was provided by Team Treehouse.",
     technologies: ["Node.js", "Express", "Pug"],
     live_link: "https://sk-express-portfolio-tth.herokuapp.com",
