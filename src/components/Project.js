@@ -72,6 +72,18 @@ const Project = () => {
               src={project.live_link}
             />
           ) : null}
+          {project.video_link ? (
+            <iframe
+              className="preview"
+              width="560"
+              height="315"
+              src={project.video_link}
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          ) : null}
           {project.img && project.name === "home suite home" ? (
             <img className="img_preview" src={hsh} alt={project.name} />
           ) : null}

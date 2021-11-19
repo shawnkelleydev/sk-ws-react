@@ -117,9 +117,9 @@ export const music = [
     instrumentation: "eett",
     duration: "13",
     description:
-      "A 2010 finalist for the ITEA Harvey Phillips Award, Urban Suite was fun to write and has been performed and recorded around the world.  It was year in 2008, released in 2009, and premiered by faculty at Eastman School of Music.",
+      "A 2010 finalist for the ITEA Harvey Phillips Award, Urban Suite was fun to write and has been performed and recorded around the world.  It was completed in 2008, released in 2009, and premiered by faculty at Eastman School of Music.",
     video_link:
-      "https://youtube.com/playlist?list=PL00ZKav_3htzX9Gj3mZIXVoHJda1q9h_5",
+      "https://www.youtube.com/embed/videoseries?list=PL00ZKav_3htzX9Gj3mZIXVoHJda1q9h_5",
     purchase_link: "https://www.cimarronmusic.com/urban-suite-8504",
     audio_link: "https://open.spotify.com/album/4L6mJLsd5JhO3VD7pNVJZf",
   },
