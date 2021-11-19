@@ -100,10 +100,22 @@ h2 {
   height: 8px;
   margin: 3px;
   width: 60%;
+  position: relative;
 }
 
 nav {
-  display: none;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  top: -100px;
+  height: 50px;
+}
+
+nav a {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .fam {
@@ -281,6 +293,7 @@ button {
     display: block;
     width: fit-content;
     text-align: right;
+    position: static;
   }
 
   nav a {

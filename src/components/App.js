@@ -2,10 +2,7 @@ import { NavLink, Outlet } from "react-router-dom";
 import logoblack from "../img/logo-black-3.png";
 
 //components
-// import Home from "./Home";
-// import About from "./About";
-// import Projects from "./Projects";
-// import Project from "./Project";
+import Ham from "./Ham";
 
 function App() {
   return (
@@ -20,11 +17,7 @@ function App() {
             <h3>Developer. Musician.</h3>
           </span>
         </div>
-        <ul id="ham">
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
+        <Ham />
         <nav>
           <NavLink to="/about">About</NavLink>
           <NavLink to="/projects">Projects</NavLink>
