@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ProjectMenu = () => {
   return (
     <div>
-      <h2>Projects</h2>
+      <h1>Projects</h1>
       <div id="project-menu">
         <ul>
           <li>

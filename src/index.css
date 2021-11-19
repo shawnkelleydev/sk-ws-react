@@ -77,6 +77,10 @@ h2 {
   background: aqua;
 }
 
+/* #home h2 {
+  background: none;
+} */
+
 .logo {
   margin: 5px;
 }
@@ -105,6 +109,7 @@ nav {
 .fam {
   max-width: 100vw;
   border-radius: 20px;
+  box-shadow: 0 0 10px rgb(83, 83, 83);
 }
 
 header a,
@@ -213,8 +218,9 @@ footer ul {
   margin: 10px 0;
 }
 
-#project-menu li {
+#project-menu li li {
   padding: 10px;
+  border-bottom: 1px solid black;
 }
 
 main p {
@@ -255,6 +261,10 @@ button {
   margin-bottom: 50px;
 }
 
+.error {
+  text-align: center;
+}
+
 @media screen and (min-width: 600px) {
   #ham {
     display: none;
@@ -263,7 +273,7 @@ button {
   a:hover,
   .project:hover,
   button:hover {
-    background-color: yellow;
+    background-color: aqua;
     color: black;
   }
 

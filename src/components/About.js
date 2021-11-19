@@ -58,6 +58,7 @@ const About = () => {
             <li className="skill">Pug</li>
             <li className="skill">HTML</li>
             <li className="skill">CSS</li>
+            <li className="skill">SQL</li>
             <li className="skill">JSON</li>
             <li className="skill">Git / GitHub</li>
             <li className="skill">VS Code </li>
