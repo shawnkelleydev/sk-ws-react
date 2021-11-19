@@ -1,7 +1,22 @@
 {
   "short_name": "React App",
   "name": "Create React App Sample",
-  "icons": [],
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "android-chrome-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "mstile-150x150.png",
+      "type": "image/png",
+      "sizes": "150x150"
+    }
+  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
