@@ -68,17 +68,23 @@ h6 {
   text-transform: capitalize;
 }
 
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
 h1 {
-  background: yellow;
+  background-color: yellow;
 }
 
 h2 {
-  background: aqua;
+  background-color: aqua;
 }
 
-/* #home h2 {
+#home h2,
+#home h1 {
   background: none;
-} */
+}
 
 .logo {
   margin: 5px;
@@ -156,6 +162,12 @@ button {
 .project-ul {
   margin-top: 30px;
   width: 95vw;
+}
+
+.project,
+.project h3,
+.project span {
+  width: auto;
 }
 
 .project-ul > li:nth-child(2) {
@@ -284,19 +296,21 @@ button {
   a:hover,
   .project:hover,
   button:hover {
-    background-color: aqua;
+    background-color: yellow;
     color: black;
   }
 
   nav {
-    display: block;
     width: fit-content;
     text-align: right;
     position: static;
+    width: auto;
+    height: auto;
   }
 
   nav a {
     margin-right: 50px;
+    background: none;
   }
 }
 
