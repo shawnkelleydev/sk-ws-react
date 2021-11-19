@@ -68,7 +68,7 @@ ul {
 /* img */
 
 .logo {
-  height: 50px;
+  height: 40px;
   margin: 5px;
   width: auto;
 }
@@ -121,12 +121,12 @@ header h1,
 } */
 
 header h1 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: var(--one);
 }
 
 header h3 {
-  font-size: 1em;
+  font-size: 0.9em;
   color: var(--three);
 }
 
@@ -380,6 +380,20 @@ button {
     margin-right: 50px;
     background: none;
     color: black;
+  }
+
+  header h1 {
+    font-size: 1.5em;
+    color: var(--one);
+  }
+
+  header h3 {
+    font-size: 1em;
+    color: var(--three);
+  }
+
+  .logo {
+    height: 50px;
   }
 }
 
