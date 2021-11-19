@@ -52,7 +52,7 @@ export const projects = [
     name: "Express Portfolio",
     description: "A React / React Router V5 integration with Flickr API.",
     tag: "CSS for this project was provided by Team Treehouse.",
-    technologies: ["React", "React Router", "JSX", "Axios API"],
+    technologies: ["Node.js", "Express", "Pug"],
     live_link: "https://sk-express-portfolio-tth.herokuapp.com",
     github_link: "https://github.com/shawnkelleydev/techdegree-project-7",
   },
