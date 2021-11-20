@@ -60,6 +60,11 @@ header div {
   align-items: center;
 }
 
+header div span h3 {
+  flex-direction: row;
+  align-items: flex-start;
+}
+
 ul {
   list-style: none;
   padding: none;
