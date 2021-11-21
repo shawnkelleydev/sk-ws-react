@@ -47,7 +47,6 @@ header {
   background-color: white;
   align-items: center;
   justify-content: space-between;
-  margin: 0;
 }
 
 #logo-link {
@@ -93,7 +92,7 @@ h3,
 h4,
 h5,
 h6 {
-  width: fit-content;
+  width: auto;
   text-transform: capitalize;
 }
 
@@ -134,6 +133,8 @@ header h1 {
 header h3 {
   font-size: 0.8em;
   color: var(--three);
+  background-color: aqua;
+  width: 180px;
 }
 
 h2 {
