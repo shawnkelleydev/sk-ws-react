@@ -274,6 +274,7 @@ button {
 
 footer {
   margin-top: 50px;
+  padding-bottom: 80px;
 }
 
 footer ul {
@@ -353,6 +354,10 @@ button {
 @media screen and (min-width: 600px) {
   header {
     position: static;
+  }
+
+  footer {
+    padding-bottom: 0;
   }
 
   header h3 {
