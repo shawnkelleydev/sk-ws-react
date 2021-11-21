@@ -6,7 +6,7 @@ const About = () => {
     <div className="content">
       <ul id="about">
         <li>
-          <img src={fam} alt="the kelley family" className="fam" />
+          <img src={fam} alt="the kelley family" className="fam" id="fam" />
         </li>
         <li>
           <h2>about</h2>

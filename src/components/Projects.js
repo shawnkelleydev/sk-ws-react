@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <div>
+    <div id="projecs-div">
       <Outlet />
     </div>
   );
