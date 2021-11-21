@@ -43,13 +43,16 @@ const ProjectMenu = () => {
             <ul className="project-list">
               {music.map((piece) => {
                 return (
-                  <Link to={`/projects/${piece.name}`} key={Math.random()}>
+                  <HashLink
+                    to={{ pathname: `/projects/${piece.name}`, hash: "#a" }}
+                    key={Math.random()}
+                  >
                     <li key={Math.random()} className="project">
                       <h3>{piece.name}</h3>
                       <span>{piece.year} </span>
                       <span className="uppercase">{piece.instrumentation}</span>
                     </li>
-                  </Link>
+                  </HashLink>
                 );
               })}
             </ul>
