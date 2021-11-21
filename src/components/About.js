@@ -1,5 +1,6 @@
 import fam from "../img/family_small.jpg";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const About = () => {
   return (
@@ -39,7 +40,9 @@ const About = () => {
               daughters, and English Springer Spaniel.
             </li>
             <li className="see">
-              <Link to="/projects">see work &rarr;</Link>
+              <HashLink to={{ pathname: "/projects", hash: "#a" }}>
+                see work &rarr;
+              </HashLink>
             </li>
           </ul>
         </li>

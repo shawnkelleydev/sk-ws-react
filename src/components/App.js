@@ -1,5 +1,6 @@
-import { NavLink, Link, Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import logoblack from "../img/logo-black-3.png";
+import { HashLink } from "react-router-hash-link";
 
 //components
 import Ham from "./Ham";
@@ -20,8 +21,10 @@ function App() {
         </div>
         <Ham />
         <nav>
-          <NavLink to={{ pathname: "/about", hash: "#a" }}>About</NavLink>
-          <NavLink to={{ pathname: "/projects", hash: "#a" }}>Projects</NavLink>
+          <HashLink to={{ pathname: "/about", hash: "#a" }}>About</HashLink>
+          <HashLink to={{ pathname: "/projects", hash: "#a" }}>
+            Projects
+          </HashLink>
         </nav>
       </header>
       {/* #content-parent used for sticky footer */}

@@ -1,5 +1,6 @@
 import { projects, music } from "./work.js";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const ProjectMenu = () => {
   return (
@@ -14,7 +15,10 @@ const ProjectMenu = () => {
             <ul className="project-list">
               {projects.map((project) => {
                 return (
-                  <Link to={`/projects/${project.name}`} key={Math.random()}>
+                  <HashLink
+                    to={{ pathname: `/projects/${project.name}`, hash: "#a" }}
+                    key={Math.random()}
+                  >
                     <li key={Math.random()} className="project">
                       <h3>{project.name}</h3>
                       {project.technologies.map((tech) => {
@@ -25,7 +29,7 @@ const ProjectMenu = () => {
                         );
                       })}
                     </li>
-                  </Link>
+                  </HashLink>
                 );
               })}
             </ul>
