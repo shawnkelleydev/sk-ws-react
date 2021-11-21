@@ -1,5 +1,4 @@
 import fam from "../img/family_small.jpg";
-import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 const About = () => {
