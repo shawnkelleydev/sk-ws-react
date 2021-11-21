@@ -42,11 +42,12 @@ div,
 }
 
 header {
-  display: flex;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
   align-items: center;
   justify-content: space-between;
   margin: 0;
-  margin-bottom: 20px;
 }
 
 #logo-link {
@@ -172,7 +173,7 @@ nav {
   position: absolute;
   display: flex;
   width: 100%;
-  top: -100px;
+  bottom: -100px;
   height: 50px;
 }
 
@@ -358,6 +359,10 @@ button {
 }
 
 @media screen and (min-width: 600px) {
+  header {
+    position: static;
+  }
+
   #ham {
     display: none;
   }
