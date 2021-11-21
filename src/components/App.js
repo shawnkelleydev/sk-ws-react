@@ -7,6 +7,7 @@ import Ham from "./Ham";
 function App() {
   return (
     <div className="App">
+      <span id="a" />
       <header>
         <div>
           <Link to="/" id="logo-link">
@@ -19,8 +20,8 @@ function App() {
         </div>
         <Ham />
         <nav>
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/projects">Projects</NavLink>
+          <NavLink to={{ pathname: "/about", hash: "#a" }}>About</NavLink>
+          <NavLink to={{ pathname: "/projects", hash: "#a" }}>Projects</NavLink>
         </nav>
       </header>
       {/* #content-parent used for sticky footer */}

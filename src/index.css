@@ -79,7 +79,7 @@ ul {
 }
 
 .fam {
-  max-width: 100vw;
+  margin-top: 10px;
   border-radius: 20px;
   box-shadow: 0 0 10px rgb(83, 83, 83);
 }
@@ -353,6 +353,10 @@ button {
 @media screen and (min-width: 600px) {
   header {
     position: static;
+  }
+
+  header h3 {
+    width: fit-content;
   }
 
   #ham {
