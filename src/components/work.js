@@ -40,6 +40,15 @@ export const projects = [
   },
   {
     year: 2021,
+    name: "SQL Library",
+    description:
+      "An editable list of library books integrating JavaScript and SQL.  SQL Library was project from Team Treehouse, running on Heroku (please forgive sleepy Dyno delays).",
+    technologies: ["Node.js", "Express", "Sequelize ORM", "SQL"],
+    live_link: "https://intense-shore-26930.herokuapp.com/books",
+    github_link: "https://github.com/shawnkelleydev/techdegree-project-8-sql",
+  },
+  {
+    year: 2021,
     name: "React Gallery",
     description: "A React / React Router V5 integration with Flickr API.",
     tag: "CSS for this project was provided by Team Treehouse.",
