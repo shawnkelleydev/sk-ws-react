@@ -44,7 +44,7 @@ export const projects = [
     description:
       "An editable list of library books integrating JavaScript and SQL.",
     tag: " SQL Library was project from Team Treehouse, running on Heroku (please forgive sleepy Dyno delays).",
-    technologies: ["Node.js", "Express", "Sequelize ORM", "SQL"],
+    technologies: ["Node.js", "Express", "Sequelize ORM", "SQLite"],
     live_link: "https://intense-shore-26930.herokuapp.com/books",
     github_link: "https://github.com/shawnkelleydev/techdegree-project-8-sql",
   },

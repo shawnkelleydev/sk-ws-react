@@ -58,9 +58,10 @@ const About = () => {
             <li className="skill">Node.js</li>
             <li className="skill">Express</li>
             <li className="skill">Pug</li>
+            <li className="skill">SQL</li>
+            <li className="skill">Sequelize ORM</li>
             <li className="skill">HTML</li>
             <li className="skill">CSS</li>
-            <li className="skill">SQL</li>
             <li className="skill">JSON</li>
             <li className="skill">Git / GitHub</li>
             <li className="skill">VS Code </li>
