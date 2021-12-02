@@ -1,3 +1,7 @@
+# Welcome to Shawn Kelley's React portfolio website!
+
+I greatly enjoyed putting together this website, which helped further cement my understanding of React and React Router.  Please see notes below on interracting with the React developer environment if you plan to look into the project.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
