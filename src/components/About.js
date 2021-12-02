@@ -52,7 +52,6 @@ const About = () => {
         </li>
         <li>
           <ul>
-            <li className="skill">Agile / SCRUM</li>
             <li className="skill">JavaScript</li>
             <li className="skill">React</li>
             <li className="skill">JSX</li>
@@ -66,6 +65,7 @@ const About = () => {
             <li className="skill">CSS</li>
             <li className="skill">JSON</li>
             <li className="skill">Git / GitHub</li>
+            <li className="skill">Agile / SCRUM</li>
             <li className="skill">VS Code </li>
             <li className="skill">RegEx</li>
             <li className="skill">OOP</li>
