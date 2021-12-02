@@ -52,11 +52,13 @@ const About = () => {
         </li>
         <li>
           <ul>
+            <li className="skill">Agile / SCRUM</li>
             <li className="skill">JavaScript</li>
             <li className="skill">React</li>
             <li className="skill">JSX</li>
             <li className="skill">Node.js</li>
             <li className="skill">Express</li>
+            <li className="skill">REST API</li>
             <li className="skill">Pug</li>
             <li className="skill">SQL</li>
             <li className="skill">Sequelize ORM</li>
@@ -67,7 +69,6 @@ const About = () => {
             <li className="skill">VS Code </li>
             <li className="skill">RegEx</li>
             <li className="skill">OOP</li>
-            <li className="skill">API</li>
             <li className="skill">Accessibility</li>
           </ul>
         </li>
