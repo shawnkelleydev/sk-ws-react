@@ -13,7 +13,7 @@ export const projects = [
     year: 2021,
     name: "first light",
     description:
-      "A tool for Christians to start their day, First Light includes a randomly-selected verse from a long curated list, a task manager, a note-taking zone, a prayer-list, and a built-in ESV bible. It even shows you the current weather in your area if you provide permission to access your location (see the live site via the link below).",
+      "A simple tool for Christians to start their day, First Light includes a randomly-selected verse from a long curated list, a task manager, a note-taking zone, a prayer-list, and a built-in ESV bible. It even shows you the current weather in your area if you provide permission to access your location (see the live site via the link below).",
     tag: "First Light.  Find your way for the day.",
     technologies: ["HTML", "CSS", "JavaScript", "Fetch API"],
     live_link: "https://shawnkelleydev.github.io/FirstLight/",
@@ -37,6 +37,15 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript"],
     live_link: "https://www.whitneykelley.com",
     github_link: "https://github.com/shawnkelleydev/whitneykelley-ws",
+  },
+  {
+    year: 2021,
+    name: "ToDoer",
+    description:
+      "ToDoer is an extremely simple vanilla JavaScript task tracker. It was a personal project and uses local storage to save user input between visits.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    live_link: "https://shawnkelleydev.github.io/ToDoer/",
+    github_link: "https://github.com/shawnkelleydev/ToDoer",
   },
   {
     year: 2021,
