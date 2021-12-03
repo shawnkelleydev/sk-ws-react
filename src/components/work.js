@@ -5,7 +5,7 @@ export const projects = [
     description:
       "A custom React / React Router V6 portfolio site with dynamic routing / data population.",
     tag: "React is fun when you finally understand it!",
-    technologies: ["React", "React Router", "JSX"],
+    technologies: ["React", "React Router"],
     live_link: "https://www.shawnkelley.dev",
     github_link: "https://github.com/shawnkelleydev/sk-ws-react",
   },
@@ -25,7 +25,7 @@ export const projects = [
     description:
       "Tomorrow Land is a React app.  It's a simple budgeting tool that keeps everything in the middle of the screen to avoid scrolling.  It also sorts items alphabetically for easy reference, and each item fully editable.",
     tag: "Tomorrow Land.  Shape tomorrow today.",
-    technologies: ["React", "JSX", "JavaScript", "HTML", "CSS"],
+    technologies: ["React"],
     live_link: "https://shawnkelleydev.github.io/tomorrowland-react/",
     github_link: "https://github.com/shawnkelleydev/tomorrowland-react",
   },
@@ -62,7 +62,7 @@ export const projects = [
     name: "React Gallery",
     description: "A React / React Router V5 integration with Flickr API.",
     tag: "CSS for this project was provided by Team Treehouse.",
-    technologies: ["React", "React Router", "JSX", "Axios"],
+    technologies: ["React", "React Router", "Axios"],
     live_link: "https://gifted-payne-38443a.netlify.app",
     github_link: "https://github.com/shawnkelleydev/techdegree-project-7-react",
   },
@@ -82,7 +82,7 @@ export const projects = [
     description:
       "An API project with a gallery, search functionality, modals, and modal navigation.",
     tag: "HTML and CSS for this project were provided by Team Treehouse.",
-    technologies: ["HTML", "CSS", "JavaScript", "Fetch"],
+    technologies: ["JavaScript", "Fetch API"],
     live_link: "https://shawnkelleydev.github.io/techdegree-project-5/",
     github_link: "https://github.com/shawnkelleydev/techdegree-project-5",
   },
@@ -93,7 +93,7 @@ export const projects = [
     description:
       "An OOP project in the form of a responsive phrase-hunting game with keyboard functionality.",
     tag: "Phrase Hunter's CSS was provided by Team Treehouse and not designed to be mobile-friendly, so a wider-than-phone screen is recommended.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["JavaScript", "OOP"],
     live_link: "https://shawnkelleydev.github.io/techdegree-project-4/",
     github_link: "https://github.com/shawnkelleydev/techdegree-project-4",
   },
@@ -103,7 +103,7 @@ export const projects = [
     description:
       "This project demonstrates live form validation using regular expressions.  It also responsively prevents schedule conflicts.",
     tag: "HTML and CSS for this project were provided by Team Treehouse.",
-    technologies: ["RegEx", "HTML", "CSS", "JavaScript"],
+    technologies: ["JavaScript", "RegEx"],
     live_link: "https://shawnkelleydev.github.io/techdegree-project-3/",
     github_link: "https://github.com/shawnkelleydev/techdegree-project-3",
   },
@@ -113,7 +113,7 @@ export const projects = [
     description:
       "This project demonstrates population, pagination, and search of a list of 42 students.",
     tag: "HTML and CSS for this project were provided by Team Treehouse.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["JavaScript"],
     live_link: "https://shawnkelleydev.github.io/techdegree-project-2/",
     github_link: "https://github.com/shawnkelleydev/techdegree-project-2",
   },
@@ -123,7 +123,7 @@ export const projects = [
     description:
       "This project features JavaScript-selected quotes over a JavaScript-selected background color, refreshing every 7 seconds.",
     tag: "HTML and CSS for this project were provided by Team Treehouse.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["JavaScript"],
     live_link: "https://shawnkelleydev.github.io/techdegree-project-1/",
     github_link: "https://github.com/shawnkelleydev/techdegree-project-1",
   },
