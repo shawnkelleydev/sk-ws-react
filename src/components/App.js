@@ -1,6 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
 import logoblack from "../img/logo-black-3.png";
 import { HashLink } from "react-router-hash-link";
+import linkedin from "../img/linkedin.png";
 
 //components
 import Ham from "./Ham";
@@ -25,6 +26,13 @@ function App() {
           <HashLink to={{ pathname: "/projects", hash: "#a" }}>
             Projects
           </HashLink>
+          <a
+            href="https://www.linkedin.com/in/shawnkelleydev/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={linkedin} className="social" alt="linked in icon" />
+          </a>
         </nav>
       </header>
       {/* #content-parent used for sticky footer */}

@@ -9,7 +9,7 @@
 :root {
   --one: rgb(0, 130, 173);
   --two: rgb(159, 72, 0);
-  --three: rgb(47, 47, 47);
+  --three: rgb(50, 50, 50);
 }
 
 body {
@@ -172,8 +172,8 @@ nav {
 /* a */
 
 nav a {
-  background-color: var(--three);
-  color: white;
+  background-color: rgb(221, 221, 221);
+  color: black;
   font-size: 1.1em;
   display: flex;
   justify-content: center;
@@ -349,6 +349,10 @@ button {
 
 .see {
   margin: 50px 0;
+}
+
+.social {
+  width: 44px;
 }
 
 @media screen and (min-width: 600px) {
