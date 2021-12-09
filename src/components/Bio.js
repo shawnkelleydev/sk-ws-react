@@ -20,8 +20,8 @@ const Bio = () => {
         completed 9 unique works for tuba quartet, his ensemble of choice. His
         first published work, <em>Urban Suite</em>, was premiered at Eastman
         School of Music in 2009. A finalist for the 2010 ITEA Harvey Phillips
-        Award, <em>Urban Suite</em>
-        has been performed and recorded around the world.
+        Award, <em>Urban Suite</em> has been performed and recorded around the
+        world.
       </li>
       <li className="bottom20">
         Shawn lives near Denver with his wife, flutist Whitney Kelley, two
