@@ -23,7 +23,7 @@ export const projects = [
     year: 2021,
     name: "tomorrow land",
     description:
-      "Tomorrow Land is a simple, full-stack budgeting tool that keeps everything in the middle of the screen to avoid scrolling.  It's *under construction*, so proceed with caution.",
+      "Tomorrow Land is a simple, full-stack budgeting app that keeps everything in the middle of the screen to avoid scrolling.  It's *under construction* and currently using Heroku's free tier, so proceed with caution.",
     tag: "Tomorrow Land.  Shape tomorrow today.",
     technologies: [
       "React",
