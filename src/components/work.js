@@ -25,14 +25,7 @@ export const projects = [
     description:
       "Tomorrow Land is a simple, full-stack budgeting app that keeps everything in the middle of the screen to avoid scrolling.  It's *under construction* and currently using Heroku's free tier, so proceed with caution.",
     tag: "Tomorrow Land.  Shape tomorrow today.",
-    technologies: [
-      "React",
-      "Node.js",
-      "Express",
-      "Rest API",
-      "Sequelize ORM",
-      "SQLite",
-    ],
+    technologies: ["React", "Node.js", "Express", "ReST", "SQL"],
     live_link: "https://vigorous-hamilton-5396c2.netlify.app",
     github_link: "https://github.com/shawnkelleydev/tomorrowland-react",
   },
