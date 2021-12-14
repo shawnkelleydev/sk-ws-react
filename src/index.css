@@ -370,6 +370,7 @@ button {
 @media screen and (min-width: 600px) {
   header {
     position: static;
+    margin-bottom: 20px;
   }
 
   footer {
@@ -433,10 +434,6 @@ button {
   .project-ul {
     display: grid;
     align-items: flex-start;
-  }
-
-  header {
-    margin-bottom: 20px;
   }
 
   #project-menu,
