@@ -5,9 +5,24 @@ const Bio = () => {
     <ul>
       <li className="bottom20">
         A seasoned musician and teacher, Shawn fell in love with programming in
-        mid-2021 and never looked back. He loves intellectual challenges and is
-        currently completing the Full-Stack JavaScript program at Team
-        Treehouse, a technology education platform.
+        mid-2021 and never looked back. He loves intellectual challenges and
+        completed the{" "}
+        <a
+          href="https://www.credential.net/a6e6f1aa-8bbc-49c8-99c3-a3929351c6d5#gs.jddjgk"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Full-Stack JavaScript Techdegree
+        </a>{" "}
+        at{" "}
+        <a
+          href="https://teamtreehouse.com/home"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Team Treehouse
+        </a>{" "}
+        in December, 2021.
       </li>
       <li className="bottom20">
         As a musician, Shawn's been priveleged to appear with GRAMMY®-Award

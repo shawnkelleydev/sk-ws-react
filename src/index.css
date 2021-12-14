@@ -10,6 +10,7 @@
   --one: rgb(0, 130, 173);
   --two: rgb(159, 72, 0);
   --three: rgb(50, 50, 50);
+  --four: rgb(91, 119, 106);
 }
 
 body {
@@ -17,11 +18,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.App,
 .content,
 #project-menu,
 .project-ul,
-#home {
+#home,
+.header-content {
   max-width: 900px;
 }
 
@@ -36,7 +37,8 @@ footer ul,
 
 body,
 div,
-#root {
+#root,
+header {
   flex-direction: column;
   align-items: center;
 }
@@ -44,7 +46,7 @@ div,
 header {
   position: fixed;
   bottom: 0;
-  background-color: white;
+  background: var(--four);
   align-items: center;
   justify-content: space-between;
 }
@@ -119,13 +121,13 @@ header h1,
 
 header h1 {
   font-size: 1.2em;
-  color: var(--one);
+  color: white;
 }
 
 header h3 {
   font-size: 0.8em;
-  color: var(--three);
-  width: 180px;
+  color: white;
+  width: fit-content;
 }
 
 h2 {
@@ -154,7 +156,7 @@ h3 {
 }
 
 #ham li {
-  background-color: black;
+  background-color: white;
   height: 8px;
   margin: 3px;
   width: 60%;
@@ -172,8 +174,8 @@ nav {
 /* a */
 
 nav a {
-  color: black;
-  background: white;
+  color: white;
+  background: black;
   font-size: 1.1em;
   display: flex;
   justify-content: center;
@@ -199,6 +201,11 @@ button {
 #learn-more {
   margin: 50px;
 }
+
+/* #home {
+  background-image: url("img/texture.jpg");
+  background-size: 500px 1000px;
+} */
 
 #home a {
   width: fit-content;
@@ -253,6 +260,9 @@ button {
 }
 #home h2 {
   margin: 20px;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 1.4em;
 }
 
 #home h1,
@@ -374,7 +384,10 @@ button {
     display: none;
   }
 
-  a:hover,
+  a:hover {
+    color: var(--two);
+  }
+
   .project:hover,
   button:hover {
     background-color: yellow;
@@ -394,22 +407,19 @@ button {
   }
 
   nav a {
-    margin-right: 50px;
     background: none;
-    color: black;
+    color: white;
     height: fit-content;
     align-self: center;
     border: none;
   }
 
-  header h1 {
-    font-size: 1.5em;
-    color: var(--one);
+  nav a:nth-child(-n + 2) {
+    margin-right: 50px;
   }
 
-  header h3 {
-    font-size: 1em;
-    color: var(--three);
+  nav a:hover {
+    color: #e7aa63;
   }
 
   .logo {
@@ -423,6 +433,10 @@ button {
   .project-ul {
     display: grid;
     align-items: flex-start;
+  }
+
+  header {
+    margin-bottom: 20px;
   }
 
   #project-menu,
