@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { all } from "./work";
 import hsh from "../img/hsh.jpg";
 import aod from "../img/aod.png";
+import ReactMarkdown from "react-markdown";
 
 const Project = () => {
   const projectName = useParams().project;
@@ -32,7 +33,9 @@ const Project = () => {
               })}
             </ul>
           ) : null}
-          <p>{project.description}</p>
+          <p>
+            <ReactMarkdown children={project.description} />
+          </p>
           <p>{project.tag}</p>
           <ul className="btns">
             {project.live_link ? (
