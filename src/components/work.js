@@ -23,8 +23,8 @@ export const projects = [
     year: 2021,
     name: "tomorrow land",
     description:
-      "Tomorrow Land is a simple, full-stack budgeting app that keeps everything in the middle of the screen to avoid scrolling.  It's *under construction* and currently using Heroku's free tier, so proceed with caution.",
-    tag: "Tomorrow Land.  Shape tomorrow today.",
+      "Tomorrow Land will soon be a full-stack budgeting application.  It is * under construction *, and it's api is currently hosted on Heroku's free tier, so sleepy dynos usually cause problems.",
+    tag: "Feel free to check out the code at Git Hub below, which is being updated often.",
     technologies: ["React", "Node.js", "Express", "ReST", "SQL"],
     live_link: "https://vigorous-hamilton-5396c2.netlify.app",
     github_link: "https://github.com/shawnkelleydev/tomorrowland-react",
