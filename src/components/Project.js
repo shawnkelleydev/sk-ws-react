@@ -33,9 +33,9 @@ const Project = () => {
               })}
             </ul>
           ) : null}
-          <p>
-            <ReactMarkdown children={project.description} />
-          </p>
+
+          <ReactMarkdown children={project.description} />
+
           <p>{project.tag}</p>
           <ul className="btns">
             {project.live_link ? (
