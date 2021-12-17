@@ -1,18 +1,28 @@
 import { HashLink } from "react-router-hash-link";
 import linkedin from "../img/linkedin-white.png";
+import { useLocation } from "react-router-dom";
 
 const Menu = () => {
+  const location = useLocation().pathname;
   return (
     <nav>
       <HashLink
         to={{ pathname: "/about", hash: "#a" }}
-        onClick={(e) => reset()}
+        onClick={(e) => {
+          reset();
+        }}
+        id="about"
+        className={location === "/about" ? "active" : null}
       >
         About
       </HashLink>
       <HashLink
         to={{ pathname: "/projects", hash: "#a" }}
-        onClick={(e) => reset()}
+        onClick={(e) => {
+          reset();
+        }}
+        id="projects"
+        className={location === "/projects" ? "active" : null}
       >
         Projects
       </HashLink>

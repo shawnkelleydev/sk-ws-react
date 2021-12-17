@@ -419,7 +419,8 @@ button {
     margin-right: 50px;
   }
 
-  nav a:hover {
+  nav a:hover,
+  .active {
     color: #e7aa63;
   }
 

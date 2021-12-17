@@ -10,7 +10,13 @@ const Header = () => {
     <header>
       <div className="header-content">
         <div>
-          <Link to="/" id="logo-link">
+          <Link
+            to="/"
+            id="logo-link"
+            onClick={(e) => {
+              reset();
+            }}
+          >
             <img src={logoOrange} alt="logo" className="logo" />
             <span>
               <h1>Shawn Kelley</h1>
@@ -25,4 +31,23 @@ const Header = () => {
   );
 };
 
+function reset() {
+  if (window.innerWidth < 600) {
+    hamE();
+  }
+}
+
+function hamE() {
+  const ham = document.querySelector("#ham").children;
+  const upper = ham[0];
+  const mid = ham[1];
+  const lower = ham[2];
+  const menu = document.querySelector("nav");
+  mid.style.background = "";
+  upper.style.transform = "";
+  upper.style.top = "";
+  lower.style.transform = "";
+  lower.style.bottom = "";
+  menu.style.bottom = "-100px";
+}
 export default Header;
