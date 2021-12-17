@@ -49,11 +49,19 @@ export const projects = [
   },
   {
     year: 2021,
+    name: "Full-Stack Course Library",
+    description: "A full-stack course library featuring user authentication.",
+    tag: "This was my final project from Team Treehouse.  Feel free to clone the project below and run on your local machine.",
+    technologies: ["React", "Node.js", "Express", "ReST", "SQL"],
+    github_link: "https://github.com/shawnkelleydev/techdegree-project-10-fs",
+  },
+  {
+    year: 2021,
     name: "SQL Library",
     description:
       "An editable list of library books integrating JavaScript and SQL.",
     tag: " SQL Library was project from Team Treehouse, running on Heroku (please forgive sleepy Dyno delays).",
-    technologies: ["Node.js", "Express", "Sequelize ORM", "SQLite"],
+    technologies: ["Node.js", "Express", "SQL"],
     live_link: "https://intense-shore-26930.herokuapp.com/books",
     github_link: "https://github.com/shawnkelleydev/techdegree-project-8-sql",
   },
