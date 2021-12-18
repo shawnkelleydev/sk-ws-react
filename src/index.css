@@ -8,7 +8,7 @@
 
 :root {
   --one: rgb(0, 130, 173);
-  --two: rgb(159, 72, 0);
+  --link: rgb(159, 72, 0);
   --three: rgb(50, 50, 50);
   --four: rgb(91, 119, 106);
   --nav: #e7aa63;
@@ -391,7 +391,7 @@ button {
   }
 
   a:hover {
-    color: var(--two);
+    color: var(--link);
   }
 
   .project:hover,

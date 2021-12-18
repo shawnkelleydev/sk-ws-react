@@ -3,7 +3,7 @@ export const projects = [
     year: 2021,
     name: "ShawnKelley.dev",
     description:
-      "A custom React / React Router V6 portfolio site with dynamic routing / data population.",
+      "A custom React / React Router V6 portfolio site with dynamic routing and data population.",
     tag: "React is fun when you finally understand it!",
     technologies: ["React", "React Router"],
     live_link: "https://www.shawnkelley.dev",
@@ -13,7 +13,7 @@ export const projects = [
     year: 2021,
     name: "first light",
     description:
-      "A simple tool for Christians to start their day, First Light includes a randomly-selected verse from a long curated list, a task manager, a note-taking zone, a prayer-list, and a built-in ESV bible. It even shows you the current weather in your area if you provide permission to access your location (see the live site via the link below).",
+      "A simple tool for Christians to start their day, First Light includes a randomly-selected verse from a long curated list, a task manager, a note-taking zone, a prayer-list, and a built-in ESV bible powered by Crossway's ESV API. It even shows you the current weather in your area if you provide permission to access your location (see the live site via the link below).",
     tag: "First Light.  Find your way for the day.",
     technologies: ["HTML", "CSS", "JavaScript", "Fetch API"],
     live_link: "https://shawnkelleydev.github.io/FirstLight/",
