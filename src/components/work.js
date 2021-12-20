@@ -37,7 +37,7 @@ export const projects = [
     tag: "Her website is full-stack and features a React/React Router V6 front end with dynamic content as well as a node/express back end for handling users and contact requests.",
     technologies: ["React", "Node", "Express", "ReST", "SQL"],
     live_link: "https://www.whitneykelley.com",
-    github_link: "https://github.com/shawnkelleydev/whitneykelley-ws",
+    github_link: "https://github.com/shawnkelleydev/whitneykelley-fs",
   },
   {
     year: 2021,
