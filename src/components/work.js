@@ -39,15 +39,15 @@ export const projects = [
     live_link: "https://www.whitneykelley.com",
     github_link: "https://github.com/shawnkelleydev/whitneykelley-ws",
   },
-  // {
-  //   year: 2021,
-  //   name: "ToDoer",
-  //   description:
-  //     "ToDoer is an extremely simple vanilla JavaScript task tracker. It was a personal project and uses local storage to save user input between visits.",
-  //   technologies: ["HTML", "CSS", "JavaScript"],
-  //   live_link: "https://shawnkelleydev.github.io/ToDoer/",
-  //   github_link: "https://github.com/shawnkelleydev/ToDoer",
-  // },
+  {
+    year: 2021,
+    name: "ToDoer",
+    description:
+      "ToDoer is an extremely simple vanilla JavaScript task tracker. It was a personal project and uses local storage to save user input between visits.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    live_link: "https://shawnkelleydev.github.io/ToDoer/",
+    github_link: "https://github.com/shawnkelleydev/ToDoer",
+  },
   {
     year: 2021,
     name: "Full-Stack Course Library",
