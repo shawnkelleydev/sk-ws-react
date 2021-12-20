@@ -25,7 +25,7 @@ export const projects = [
     description:
       "Tomorrow Land will soon be a full-stack budgeting application.  It is **under construction**, so check back soon for a future deployment.",
     tag: "Feel free to check out the current code blow at GitHub.",
-    technologies: ["React", "Node.js", "Express", "ReST", "SQL"],
+    technologies: ["React", "Node", "Express", "ReST", "SQL"],
     // live_link: "https://vigorous-hamilton-5396c2.netlify.app",
     github_link: "https://github.com/shawnkelleydev/tomorrow-land-fs",
   },
@@ -33,26 +33,27 @@ export const projects = [
     year: 2021,
     name: "WhitneyKelley.com",
     description:
-      "Whitney Kelley is a professional flutist and teacher in the Denver metro area.  She's also my wife!  Her website features an interactive private lesson information section, and it automatically removes events from her performance schedule as they expire.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+      "Whitney Kelley is a professional flutist and teacher in the Denver metro area.  She's also my wife!",
+    tag: "Her website is full-stack and features a React/React Router V6 front end with dynamic content as well as a node/express back end for handling users and contact requests.",
+    technologies: ["React", "Node", "Express", "ReST", "SQL"],
     live_link: "https://www.whitneykelley.com",
     github_link: "https://github.com/shawnkelleydev/whitneykelley-ws",
   },
-  {
-    year: 2021,
-    name: "ToDoer",
-    description:
-      "ToDoer is an extremely simple vanilla JavaScript task tracker. It was a personal project and uses local storage to save user input between visits.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    live_link: "https://shawnkelleydev.github.io/ToDoer/",
-    github_link: "https://github.com/shawnkelleydev/ToDoer",
-  },
+  // {
+  //   year: 2021,
+  //   name: "ToDoer",
+  //   description:
+  //     "ToDoer is an extremely simple vanilla JavaScript task tracker. It was a personal project and uses local storage to save user input between visits.",
+  //   technologies: ["HTML", "CSS", "JavaScript"],
+  //   live_link: "https://shawnkelleydev.github.io/ToDoer/",
+  //   github_link: "https://github.com/shawnkelleydev/ToDoer",
+  // },
   {
     year: 2021,
     name: "Full-Stack Course Library",
     description: "A full-stack course library featuring user authentication.",
     tag: "This was my final project from Team Treehouse.  Feel free to clone the project below and run on your local machine.",
-    technologies: ["React", "Node.js", "Express", "ReST", "SQL"],
+    technologies: ["React", "Node", "Express", "ReST", "SQL"],
     github_link: "https://github.com/shawnkelleydev/techdegree-project-10-fs",
   },
   {
@@ -61,7 +62,7 @@ export const projects = [
     description:
       "An editable list of library books integrating JavaScript and SQL.",
     tag: " SQL Library was project from Team Treehouse, running on Heroku (please forgive sleepy Dyno delays).",
-    technologies: ["Node.js", "Express", "SQL"],
+    technologies: ["Node", "Express", "SQL"],
     live_link: "https://intense-shore-26930.herokuapp.com/books",
     github_link: "https://github.com/shawnkelleydev/techdegree-project-8-sql",
   },
@@ -80,7 +81,7 @@ export const projects = [
     description:
       "An Express / Pug portfolio project.  It's running on Heroku, so there may be a slight delay if the Dyno is sleeping.",
     tag: "CSS for this project was provided by Team Treehouse.",
-    technologies: ["Node.js", "Express", "Pug"],
+    technologies: ["Node", "Express", "Pug"],
     live_link: "https://sk-express-portfolio-tth.herokuapp.com",
     github_link: "https://github.com/shawnkelleydev/techdegree-project-7",
   },
