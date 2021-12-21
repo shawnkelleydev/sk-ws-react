@@ -4,7 +4,7 @@ const Skills = () => {
       <li className="skill">JavaScript</li>
       <li className="skill">React</li>
       <li className="skill">React Native</li>
-      <li className="skill">Node.js</li>
+      <li className="skill">Node</li>
       <li className="skill">Express</li>
       <li className="skill">ReST</li>
       <li className="skill">Pug</li>
