@@ -11,17 +11,17 @@ const Project = () => {
   if (!project) {
     return (
       <div className="error-div">
+        <p className="error">Man down! 404</p>
         <Link to="/projects" className="error">
           &larr; back to projects
         </Link>
-        <p className="error">Man down! 404</p>
       </div>
     );
   } else {
     return (
       <ul className="project-ul">
         <li>
-          <Link to="/projects" className="error">
+          <Link to="/projects" className="back">
             &larr; back to projects
           </Link>
           <h1>{project.name}</h1>

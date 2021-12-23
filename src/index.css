@@ -16,31 +16,13 @@ body {
   max-width: 900px;
 }
 
-body, header, div {
+body, header, div, footer, footer ul, #root {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-footer ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#root {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-body, div, #root {
+body, div, #root, header {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -51,20 +33,27 @@ body, div, #root {
 }
 
 header {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   position: fixed;
   bottom: 0;
   background: #5b776a;
-  align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+header h1 {
+  background: none;
+  padding: 0;
+  font-size: 1.2em;
+  color: white;
+}
+
+header h3 {
+  font-size: 0.8em;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .logo-link {
@@ -99,16 +88,15 @@ header div span h3 {
           align-items: flex-start;
 }
 
-ul {
-  list-style: none;
-  padding: none;
-}
-
-/* img */
 .logo {
   height: 40px;
   margin: 5px;
   width: auto;
+}
+
+ul {
+  list-style: none;
+  padding: none;
 }
 
 .fam, .fam-front {
@@ -118,13 +106,12 @@ ul {
           box-shadow: 0 0 10px #535353;
 }
 
-/* headline shenanigans */
 h1, h2, h3, h4, h5, h6 {
   width: auto;
   text-transform: capitalize;
 }
 
-h2, button {
+button {
   border-radius: 5px;
 }
 
@@ -133,39 +120,18 @@ h1 {
   color: #0082ad;
 }
 
-h3 {
-  color: #0082ad;
-}
-
-header h1 {
-  background: none;
-  padding: 0;
-}
-
-.home h1, .home h2 {
-  background: none;
-  padding: 0;
-}
-
-header h1 {
-  font-size: 1.2em;
-  color: white;
-}
-
-header h3 {
-  font-size: 0.8em;
-  color: white;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
 h2 {
   font-size: 1.3em;
 }
 
 h3 {
   font-size: 1.1em;
+  color: #0082ad;
+}
+
+.home h1, .home h2 {
+  background: none;
+  padding: 0;
 }
 
 h1, h2, h3 {
@@ -432,13 +398,17 @@ button {
 .error {
   margin-bottom: 20px;
   text-align: center;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 .error-div {
   padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .see {
@@ -471,9 +441,6 @@ button {
   }
   .fam {
     width: 100%;
-  }
-  .projects-div h1 {
-    margin-top: 0;
   }
   a:hover {
     color: #9f4800;
