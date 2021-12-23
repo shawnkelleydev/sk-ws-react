@@ -3,7 +3,8 @@ import linkedin from "../img/linkedin-white.png";
 import { useLocation } from "react-router-dom";
 
 const Menu = () => {
-  const location = useLocation().pathname;
+  let location = useLocation().pathname;
+  console.log(location.split("/")[1] === "projects");
 
   return (
     <nav className="hide">
@@ -29,7 +30,11 @@ const Menu = () => {
           ham.className = "ham";
         }}
         id="projects"
-        className={location === "/projects" ? "active projects" : "projects"}
+        className={
+          location === "/projects" || location.split("/")[1] === "projects"
+            ? "active projects"
+            : "projects"
+        }
       >
         Projects
       </HashLink>
