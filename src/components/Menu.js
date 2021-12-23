@@ -4,17 +4,20 @@ import { useLocation } from "react-router-dom";
 
 const Menu = () => {
   let location = useLocation().pathname;
-  console.log(location.split("/")[1] === "projects");
+
+  const reset = () => {
+    const menu = document.querySelector("nav");
+    const ham = document.querySelector(".ham");
+    menu.className = "hide";
+    ham.className = "ham";
+  };
 
   return (
     <nav className="hide">
       <HashLink
         to={{ pathname: "/about", hash: "#a" }}
-        onClick={(e) => {
-          const menu = document.querySelector("nav");
-          const ham = document.querySelector(".ham");
-          menu.className = "hide";
-          ham.className = "ham";
+        onClick={() => {
+          reset();
         }}
         id="about"
         className={location === "/about" ? "active about" : "about"}
@@ -23,11 +26,8 @@ const Menu = () => {
       </HashLink>
       <HashLink
         to={{ pathname: "/projects", hash: "#a" }}
-        onClick={(e) => {
-          const menu = document.querySelector("nav");
-          const ham = document.querySelector(".ham");
-          menu.className = "hide";
-          ham.className = "ham";
+        onClick={() => {
+          reset();
         }}
         id="projects"
         className={
