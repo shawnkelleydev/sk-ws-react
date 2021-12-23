@@ -250,7 +250,6 @@ nav a {
   border-bottom: 1px solid black;
 }
 
-/* a */
 header a, .project-menu a {
   text-decoration: none;
 }
@@ -274,7 +273,6 @@ button {
   width: fit-content;
 }
 
-/* body */
 .content {
   width: 95vw;
 }
@@ -392,6 +390,10 @@ footer ul {
   border-bottom: 1px solid black;
 }
 
+.projects-div h1 {
+  margin-top: 20px;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -469,6 +471,9 @@ button {
   }
   .fam {
     width: 100%;
+  }
+  .projects-div h1 {
+    margin-top: 0;
   }
   a:hover {
     color: #9f4800;
