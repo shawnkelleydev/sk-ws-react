@@ -21,8 +21,19 @@ body
 
 // DRY teams
 
+.uppercase
+  text-transform: uppercase
+
+.bottom20
+  margin-bottom: 20px
+
+.project-menu, .fam, .fam-front
+  width: 95vw
+
 .content, .project-menu, .project-ul, .home, .header-content, .fam-front
   max-width: 900px
+
+
 
 body, header, div, footer, footer ul, #root
   display: flex
@@ -68,53 +79,6 @@ header div
   height: 40px
   margin: 5px
   width: auto
-  
-
-
-// BODY CONTENT
-
-ul
-  list-style: none
-  padding: none
-
-.fam, .fam-front
-  margin-top: 10px
-  border-radius: 20px
-  box-shadow: 0 0 10px rgb(83, 83, 83)
-
-h1, h2, h3, h4, h5, h6
-  width: auto
-  text-transform: capitalize
-
-button
-  border-radius: 5px
-
-h1
-  font-size: 1.8em
-  color: rgb(0, 130, 173);
-
-h2
-  font-size: 1.3em
-
-h3
-  font-size: 1.1em
-  color: rgb(0, 130, 173); 
-
-
-// HOME
-
-.home
-  h1, h2
-    background: none
-    padding: 0
-
-
-
-
-h1, h2, h3
-  text-transform: uppercase
-
-/* menu
 
 .ham
   padding: 0
@@ -167,6 +131,14 @@ nav
 header a, .project-menu a
   text-decoration: none
 
+.social
+  width: 44px
+
+.active
+  color: #e7aa63;
+
+// CONTENT
+
 a
   color: black
   cursor: pointer
@@ -174,12 +146,37 @@ a
 button
   cursor: pointer
 
-.learn-more
-  margin: 50px
+ul
+  list-style: none
+  padding: none
 
+.fam, .fam-front
+  margin-top: 10px
+  border-radius: 20px
+  box-shadow: 0 0 10px rgb(83, 83, 83)
 
-.home a
-  width: fit-content
+h1, h2, h3, h4, h5, h6
+  width: auto
+
+h4, h5, h6
+  text-transform: capitalize
+
+h1, h2, h3
+  text-transform: uppercase
+
+button
+  border-radius: 5px
+
+h1
+  font-size: 1.8em
+  color: rgb(0, 130, 173);
+
+h2
+  font-size: 1.3em
+
+h3
+  font-size: 1.1em
+  color: rgb(0, 130, 173); 
 
 .content
   width: 95vw
@@ -187,9 +184,64 @@ button
   h2
     margin: 20px 0
 
-.project-ul
-  margin-top: 30px
-  width: 95vw
+.content-parent
+  min-height: 100vh
+
+.section-header
+  margin-bottom: 20px
+
+button
+  cursor: pointer
+  width: 200px
+  border: none
+  background-color: black
+  color: white
+  padding: 20px
+  margin-bottom: 10px
+  font-size: 1.1em
+
+.btns
+  margin-bottom: 50px
+
+// HOME
+
+.home
+  h1, h2
+    background: none
+    padding: 0
+    text-align: center
+
+  a
+    width: fit-content
+
+  h1
+    margin-top: 50px
+
+  h2
+    margin: 20px
+    text-transform: capitalize
+    font-weight: 300
+    font-size: 1.4em
+
+.learn-more
+  margin: 50px
+
+// PROFILE
+  
+.skills
+  ul
+    display: flex
+    flex-wrap: wrap
+
+  li
+    width: fit-content
+
+  ul li
+    margin-right: 30px
+    margin-bottom: 20px
+
+
+// PROJECTS
 
 .project
   width: auto
@@ -197,9 +249,9 @@ button
   h3, span
     width: auto
 
-
-
 .project-ul
+  margin-top: 30px
+  width: 95vw
   > li:nth-child(2)
     display: flex
     justify-content: center
@@ -213,50 +265,7 @@ button
   h1
     margin-top: 20px
 
-.project-menu, .fam, .fam-front
-  width: 95vw
 
-.home
-  h1
-    margin-top: 50px
-
-  h2
-    margin: 20px
-    text-transform: capitalize
-    font-weight: 300
-    font-size: 1.4em
-
-  h1, h2
-    text-align: center
-
-.skills
-  ul
-    display: flex
-    flex-wrap: wrap
-
-  li
-    width: fit-content
-
-  ul li
-    margin-right: 30px
-    margin-bottom: 20px
-
-footer
-  margin-top: 50px
-  padding-bottom: 80px
-
-  ul
-    height: auto
-    text-transform: capitalize
-    flex-direction: column-reverse
-    text-align: center
-    font-size: 0.8em
-
-.content-parent
-  min-height: 100vh
-
-.section-header
-  margin-bottom: 20px
 
 .project-menu
   text-transform: capitaize
@@ -272,9 +281,6 @@ footer
   h1
     margin-top: 20px
 
-.uppercase
-  text-transform: uppercase
-
 .preview
   width: 80vw
   max-width: 300px
@@ -283,23 +289,29 @@ footer
   border-radius: 30px
   border: 5px solid rgb(42, 42, 42)
 
-.bottom20
-  margin-bottom: 20px
-
-button
-  width: 200px
-  border: none
-  background-color: black
-  color: white
-  padding: 20px
-  margin-bottom: 10px
-  font-size: 1.1em
-
 .tech
   margin-right: 10px
 
-.btns
-  margin-bottom: 50px
+// FOOTER 
+
+footer
+  margin-top: 50px
+  padding-bottom: 80px
+
+  ul
+    height: auto
+    text-transform: capitalize
+    flex-direction: column-reverse
+    text-align: center
+    font-size: 0.8em
+
+
+
+
+
+
+
+// 404
 
 .error
   margin-bottom: 20px
@@ -314,11 +326,7 @@ button
 .see
   margin: 50px 0
 
-.social
-  width: 44px
 
-.active
-  color: #e7aa63;
 
 @media screen and (min-width: 600px)
   header
