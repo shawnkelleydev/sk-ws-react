@@ -12,7 +12,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.content, .project-menu, .project-ul, .home, .header-content {
+.content, .project-menu, .project-ul, .home, .header-content, .fam-front {
   max-width: 900px;
 }
 
@@ -111,7 +111,7 @@ ul {
   width: auto;
 }
 
-.fam {
+.fam, .fam-front {
   margin-top: 10px;
   border-radius: 20px;
   -webkit-box-shadow: 0 0 10px #535353;
@@ -317,7 +317,7 @@ button {
   margin-top: 20px;
 }
 
-.project-menu, .fam {
+.project-menu, .fam, .fam-front {
   width: 95vw;
 }
 
