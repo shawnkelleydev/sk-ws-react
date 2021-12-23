@@ -13,6 +13,7 @@ const Header = () => {
           <Link
             to="/"
             id="logo-link"
+            className="logo-link"
             onClick={(e) => {
               reset();
             }}

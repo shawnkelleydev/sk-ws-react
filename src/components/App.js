@@ -9,7 +9,7 @@ function App() {
       <span id="a" />
       <Header />
       {/* #content-parent used for sticky footer */}
-      <div id="content-parent">
+      <div id="content-parent" className="content-parent">
         <Outlet />
       </div>
 

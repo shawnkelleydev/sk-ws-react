@@ -12,7 +12,7 @@ const Menu = () => {
           reset();
         }}
         id="about"
-        className={location === "/about" ? "active" : null}
+        className={location === "/about" ? "active about" : "about"}
       >
         About
       </HashLink>
@@ -22,7 +22,7 @@ const Menu = () => {
           reset();
         }}
         id="projects"
-        className={location === "/projects" ? "active" : null}
+        className={location === "/projects" ? "active projects" : "projects"}
       >
         Projects
       </HashLink>

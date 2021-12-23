@@ -8,6 +8,7 @@ function Ham() {
   return (
     <ul
       id="ham"
+      className="ham"
       onClick={(e) => {
         let target = e.target;
         if (target.tagName === "LI") {

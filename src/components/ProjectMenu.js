@@ -5,7 +5,7 @@ const ProjectMenu = () => {
   return (
     <div>
       <h1>Projects</h1>
-      <div id="project-menu">
+      <div id="project-menu" className="project-menu">
         <ul>
           <li>
             <h2>Development</h2>

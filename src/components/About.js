@@ -17,7 +17,7 @@ const About = () => {
           <Bio />
         </li>
       </ul>
-      <ul id="skills">
+      <ul id="skills" className="skills">
         <li>
           <h2>skills</h2>
         </li>
