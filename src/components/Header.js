@@ -6,6 +6,10 @@ import Ham from "./Ham";
 import Menu from "./Menu";
 
 const Header = () => {
+  const reset = () => {
+    console.log("reset");
+  };
+
   return (
     <header>
       <div className="header-content">
@@ -14,7 +18,7 @@ const Header = () => {
             to="/"
             id="logo-link"
             className="logo-link"
-            onClick={(e) => {
+            onClick={() => {
               reset();
             }}
           >
@@ -32,23 +36,4 @@ const Header = () => {
   );
 };
 
-function reset() {
-  if (window.innerWidth < 600) {
-    hamE();
-  }
-}
-
-function hamE() {
-  const ham = document.querySelector("#ham").children;
-  const upper = ham[0];
-  const mid = ham[1];
-  const lower = ham[2];
-  const menu = document.querySelector("nav");
-  mid.style.background = "";
-  upper.style.transform = "";
-  upper.style.top = "";
-  lower.style.transform = "";
-  lower.style.bottom = "";
-  menu.style.bottom = "-100px";
-}
 export default Header;

@@ -4,8 +4,13 @@ import { useLocation } from "react-router-dom";
 
 const Menu = () => {
   const location = useLocation().pathname;
+
+  const reset = () => {
+    console.log("reset");
+  };
+
   return (
-    <nav>
+    <nav className="hide">
       <HashLink
         to={{ pathname: "/about", hash: "#a" }}
         onClick={(e) => {
@@ -36,25 +41,5 @@ const Menu = () => {
     </nav>
   );
 };
-
-function reset() {
-  if (window.innerWidth < 600) {
-    hamE();
-  }
-}
-
-function hamE() {
-  const ham = document.querySelector("#ham").children;
-  const upper = ham[0];
-  const mid = ham[1];
-  const lower = ham[2];
-  const menu = document.querySelector("nav");
-  mid.style.background = "";
-  upper.style.transform = "";
-  upper.style.top = "";
-  lower.style.transform = "";
-  lower.style.bottom = "";
-  menu.style.bottom = "-100px";
-}
 
 export default Menu;
