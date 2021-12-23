@@ -6,10 +6,6 @@ import Ham from "./Ham";
 import Menu from "./Menu";
 
 const Header = () => {
-  const reset = () => {
-    console.log("reset");
-  };
-
   return (
     <header>
       <div className="header-content">
@@ -19,7 +15,8 @@ const Header = () => {
             id="logo-link"
             className="logo-link"
             onClick={() => {
-              reset();
+              const menu = document.querySelector("nav");
+              console.log(menu);
             }}
           >
             <img src={logoOrange} alt="logo" className="logo" />
