@@ -317,7 +317,7 @@ button {
   margin-top: 20px;
 }
 
-.project-menu {
+.project-menu, .fam {
   width: 95vw;
 }
 
@@ -372,7 +372,11 @@ footer ul {
 }
 
 .content-parent {
-  min-height: 1vh;
+  min-height: 100vh;
+}
+
+.section-header {
+  margin-bottom: 20px;
 }
 
 .project-menu {
@@ -462,6 +466,9 @@ button {
   }
   .ham {
     display: none;
+  }
+  .fam {
+    width: 100%;
   }
   a:hover {
     color: #9f4800;

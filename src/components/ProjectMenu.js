@@ -4,7 +4,7 @@ import { HashLink } from "react-router-hash-link";
 const ProjectMenu = () => {
   return (
     <div>
-      <h1>Projects</h1>
+      <h1 className="section-header">Projects</h1>
       <div id="project-menu" className="project-menu">
         <ul>
           <li>
