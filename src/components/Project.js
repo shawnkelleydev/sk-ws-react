@@ -37,6 +37,15 @@ const Project = () => {
           <ReactMarkdown children={project.description} />
 
           <p>{project.tag}</p>
+          {project.bugTitle ? (
+            <p>
+              To learn more, see{" "}
+              <a href={project.bugLink} target="_blank" rel="noreferrer">
+                {project.bugTitle}
+              </a>
+              .
+            </p>
+          ) : null}
           <ul className="btns">
             {project.live_link ? (
               <li>

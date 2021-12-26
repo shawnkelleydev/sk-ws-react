@@ -24,7 +24,9 @@ export const projects = [
     name: "tomorrow land",
     description:
       "Tomorrow Land will soon be a full-stack budgeting application.  It is **under construction**, so tread carefully!",
-    tag: "Budgeting is so important to thriving long term, and I'm excited to produce something that could be used widely.",
+    tag: "Feel free to play, but please note that Tomorrow Land currently uses SQLite3, which does not play well with Heroku, so data is often cleared.",
+    bugTitle: "Heroku and SQLite3",
+    bugLink: "https://devcenter.heroku.com/articles/sqlite3",
     technologies: ["React", "Node", "Express", "ReST", "SQL"],
     live_link: "https://keen-perlman-642ce0.netlify.app",
     github_link: "https://github.com/shawnkelleydev/tomorrow-land-fs",
