@@ -6,6 +6,9 @@ export const skills = [
     skill: "React",
   },
   {
+    skill: "React Router",
+  },
+  {
     skill: "React Native",
   },
   {
