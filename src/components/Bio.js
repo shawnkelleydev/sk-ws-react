@@ -26,9 +26,10 @@ const Bio = () => {
       </li>
       <li className="bottom20">
         As a musician, Shawn's been priveleged to appear with GRAMMY®-Award
-        winners Doc Severinsen, Kenny Rogers, and Charlie Daniels. He was also
-        seen on international television as a part of President George W. Bush's
-        second innauguration parade.
+        winners Doc Severinsen, Kenny Rogers, and Charlie Daniels, as well as
+        the Knoxville Symphony Orchestra, Southern Stars Symphonic Brass, and
+        Cathedral Brass. He was also seen on international television as a part
+        of President George W. Bush's second innauguration parade.
       </li>
       <li className="bottom20">
         Shawn loves to make new things and is a prolific composer, having
