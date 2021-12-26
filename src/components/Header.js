@@ -10,15 +10,7 @@ const Header = () => {
     <header>
       <div className="header-content">
         <div>
-          <Link
-            to="/"
-            id="logo-link"
-            className="logo-link"
-            onClick={() => {
-              const menu = document.querySelector("nav");
-              console.log(menu);
-            }}
-          >
+          <Link to="/" id="logo-link" className="logo-link">
             <img src={logoOrange} alt="logo" className="logo" />
             <span>
               <h1>Shawn Kelley</h1>

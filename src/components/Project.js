@@ -1,6 +1,6 @@
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
-import { all } from "./work";
+import { all } from "./Work";
 import hsh from "../img/hsh.jpg";
 import aod from "../img/aod.png";
 import ReactMarkdown from "react-markdown";
@@ -28,8 +28,8 @@ const Project = () => {
           <h2>{project.year}</h2>
           {project.technologies ? (
             <ul>
-              {project.technologies.map((tech) => {
-                return <li key={Math.random()}>{tech}</li>;
+              {project.technologies.map((tech, i) => {
+                return <li key={i}>{tech}</li>;
               })}
             </ul>
           ) : null}

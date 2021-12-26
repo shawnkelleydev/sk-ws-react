@@ -1,7 +1,7 @@
 import fam from "../img/family_small.jpg";
 
 import Bio from "./Bio";
-import Skills from "./Skills";
+import { skills } from "./Skills";
 
 const About = () => {
   return (
@@ -22,7 +22,15 @@ const About = () => {
           <h2>skills</h2>
         </li>
         <li>
-          <Skills />
+          <ul>
+            {skills.map((obj, i) => {
+              return (
+                <li className="skill" key={i}>
+                  {obj.skill}
+                </li>
+              );
+            })}
+          </ul>
         </li>
       </ul>
     </div>
