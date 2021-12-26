@@ -1,4 +1,4 @@
-import { projects, music } from "./Work.js";
+import { projects, music } from "./Work";
 import { HashLink } from "react-router-hash-link";
 
 const ProjectMenu = () => {
