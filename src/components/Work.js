@@ -5,7 +5,7 @@ export const projects = [
     description:
       "A custom React / React Router V6 portfolio site with dynamic routing and data population.",
     tag: "React is fun when you finally understand it!",
-    technologies: ["React", "React Router"],
+    technologies: ["React", "React Router V6"],
     live_link: "https://www.shawnkelley.dev",
     github_link: "https://github.com/shawnkelleydev/sk-ws-react",
   },
@@ -13,11 +13,11 @@ export const projects = [
     year: 2021,
     name: "first light",
     description:
-      "A simple tool for Christians to start their day, First Light includes a randomly-selected verse from a long curated list, a task manager, a note-taking zone, a prayer-list, and a built-in ESV bible powered by Crossway's ESV API. It even shows you the current weather in your area if you provide permission to access your location (see the live site via the link below).",
+      "First Light began as a vanillaJS project, but has now morphed into a full-blown React app, with future plans for React Native deployment.  It's under construction, but will soon provide users with an opportunity to gain perspective for their day through verses from the Bible, astrophotography, and list-capture.",
     tag: "First Light.  Find your way for the day.",
-    technologies: ["HTML", "CSS", "JavaScript", "Fetch API"],
-    live_link: "https://shawnkelleydev.github.io/FirstLight/",
-    github_link: "https://github.com/shawnkelleydev/FirstLight",
+    technologies: ["React", "React Router V6"],
+    live_link: "https://firstlight-skd.netlify.app",
+    github_link: "https://github.com/shawnkelleydev/firstlight-fs",
   },
   {
     year: 2021,
@@ -73,7 +73,7 @@ export const projects = [
     name: "React Gallery",
     description: "A React / React Router V5 integration with Flickr API.",
     tag: "CSS for this project was provided by Team Treehouse.",
-    technologies: ["React", "React Router", "Axios"],
+    technologies: ["React", "React Router V5", "Axios"],
     live_link: "https://gifted-payne-38443a.netlify.app",
     github_link: "https://github.com/shawnkelleydev/techdegree-project-7-react",
   },
