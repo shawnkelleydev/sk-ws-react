@@ -13,7 +13,7 @@ export const projects = [
     year: 2021,
     name: "first light",
     description:
-      "First Light is a React app designed to help Christians start their day.  It includes the ESV, a free-resource search tool, a minimalist task manager, and an abundance of space pictures.",
+      "First Light is a React app designed to help Christians start their day.  It includes a Bible study space, a free-resource search tool, a minimalist task manager, and an abundance of space pictures.",
     tag: "First Light.  Find your way for the day.",
     technologies: ["React", "React Router V6"],
     live_link: "https://firstlight-skd.netlify.app",
