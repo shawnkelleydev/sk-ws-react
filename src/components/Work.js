@@ -13,7 +13,7 @@ export const projects = [
     year: 2021,
     name: "first light",
     description:
-      "First Light is a React app designed to help Christians start their day.  It includes a Bible study space, a free-resource search tool, a minimalist task manager, and an abundance of space pictures.",
+      "First Light is a React app designed to help Christians start their day.  It's super powered by numerous API integrations with NASA, Google, and Crossway.",
     tag: "First Light.  Find your way for the day.",
     technologies: ["React", "React Router V6"],
     live_link: "https://firstlight-skd.netlify.app",
@@ -23,8 +23,8 @@ export const projects = [
     year: 2021,
     name: "tomorrow land",
     description:
-      "Tomorrow Land will soon be a full-stack budgeting application.  It is **under construction**, so tread carefully!",
-    tag: "Feel free to play, but please note that Tomorrow Land currently uses SQLite3, which does not play well with Heroku.  A future transition to PostgreSQL is planned.",
+      "Tomorrow Land is a full-stack budgeting application.  The project currently works on a local machine using SQLite3, and future development with PostgreSQL will make it functional online.",
+    tag: "Tomorrow Land.  Shape tomorrow today.",
     bugTitle: "Heroku and SQLite3",
     bugLink: "https://devcenter.heroku.com/articles/sqlite3",
     technologies: ["React", "Node", "Express", "ReST", "SQL"],
