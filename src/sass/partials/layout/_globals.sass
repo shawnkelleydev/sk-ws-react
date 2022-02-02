@@ -1,0 +1,111 @@
+@use '../utilities/mixins'
+@use '../utilities/variables'
+
+*
+  margin: 0
+  padding: 0
+  width: 100%
+  font-family: "Montserrat", sans-serif
+  transition: all 150ms ease
+
+.uppercase
+  text-transform: uppercase
+
+.bottom20
+  margin-bottom: 20px
+
+.active
+  color: variables.$color-accent
+
+.content
+  @include mixins.max-width
+  width: 95vw
+  h2
+    margin: 20px 0
+  @media (min-width: variables.$break-tablet)
+    display: grid
+    align-items: flex-start
+    grid-template-columns: 200px auto
+  
+
+.content-parent
+  min-height: 100vh
+
+.section-header
+  margin-bottom: 20px
+  
+
+.btns
+  margin-bottom: 50px
+
+.social
+  width: 44px
+  @media (min-width: variables.$break-tablet)
+    margin-right: 10px
+
+.hide
+  bottom: -100px
+
+.show
+  bottom: 80px
+
+.see
+  margin: 50px 0
+
+a
+  text-decoration: none
+  color: variables.$color-headline
+  cursor: pointer
+  @media (min-width: variables.$break-desktop)
+    &:hover
+      color: variables.$color-accent
+
+ul
+  list-style: none
+  padding: none
+
+div
+  @include mixins.flexy($dir: column, $align: center)
+
+h1, h2, h3, h4, h5, h6
+  width: auto
+
+h4, h5, h6
+  text-transform: capitalize
+
+h1, h2, h3
+  text-transform: uppercase
+
+h1
+  font-size: 1.8em
+  color: rgb(0, 130, 173)
+
+h2
+  font-size: 1.3em
+
+h3
+  font-size: 1.1em
+  color: rgb(0, 130, 173) 
+
+button
+  border-radius: variables.$radius-sm
+  cursor: pointer
+  width: 200px
+  border: none
+  background-color: black
+  color: white
+  padding: 20px
+  margin-bottom: 10px
+  font-size: 1.1em
+
+// 404
+
+.error
+  margin-bottom: 20px
+  text-align: center
+
+
+.error-div
+  padding-top: 100px
+  display: flex
+  flex-direction: column

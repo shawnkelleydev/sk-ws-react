@@ -1,0 +1,26 @@
+@use './variables'
+  
+@mixin flexy($disp: flex, $dir: null, $align: null, $justify: null, $wrap: null, $flex: null)
+  display: $disp
+  flex-direction: $dir
+  align-items: $align
+  justify-content: $justify
+  flex-wrap: $wrap
+  flex: $flex
+  @content
+
+@mixin max-width
+  max-width: 900px
+
+@mixin vw-large
+  width: 95vw
+
+@mixin fam-pic
+  @include vw-large
+  @include max-width
+  margin-top: 10px
+  border-radius: variables.$radius-m
+  box-shadow: 0 0 10px rgb(83, 83, 83)
+
+  
+

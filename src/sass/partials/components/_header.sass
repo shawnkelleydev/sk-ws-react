@@ -1,0 +1,39 @@
+@use '../utilities/mixins'
+@use '../utilities/variables'
+
+.header-content
+  @include mixins.max-width
+
+header
+  @include mixins.flexy($dir: column, $align: center, $justify: space-between)
+  position: fixed
+  bottom: 0
+  background: variables.$color-primary //green
+  h1
+    background: none
+    padding: 0
+    font-size: 1.2em
+    color: white
+
+  h3
+    font-size: 0.8em
+    color: white
+    width: fit-content
+  div, .logo-link
+    @include mixins.flexy($dir: row, $align: center)
+  span h3
+    @include mixins.flexy($dir: row, $align: flex-start)
+  .logo-link
+    width: 250px
+  .logo
+    height: 40px
+    margin: 5px
+    width: auto
+    @media (min-width: variables.$break-tablet)
+      height: 50px
+
+  @media (min-width: variables.$break-tablet)
+    position: static
+    margin-bottom: 20px
+    h3
+      width: fit-content

@@ -15,7 +15,10 @@ const ProjectMenu = () => {
               {projects.map((project, i) => {
                 return (
                   <HashLink
-                    to={{ pathname: `/projects/${project.name}`, hash: "#a" }}
+                    to={{
+                      pathname: `/projects/${project.name.toLowerCase()}`,
+                      hash: "#a",
+                    }}
                     key={i}
                   >
                     <li className="project">
@@ -27,6 +30,12 @@ const ProjectMenu = () => {
                           </span>
                         );
                       })}
+                      {project.img ? (
+                        <img
+                          src={project.img}
+                          alt={project.name.toLowerCase()}
+                        />
+                      ) : null}
                     </li>
                   </HashLink>
                 );

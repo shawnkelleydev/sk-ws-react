@@ -1,14 +1,14 @@
 export const projects = [
-  {
-    year: 2021,
-    name: "ShawnKelley.dev",
-    description:
-      "A custom React / React Router V6 portfolio site with dynamic routing and data population.",
-    tag: "React is fun when you finally understand it!",
-    technologies: ["React", "React Router V6"],
-    live_link: "https://www.shawnkelley.dev",
-    github_link: "https://github.com/shawnkelleydev/sk-ws-react",
-  },
+  // {
+  //   year: 2021,
+  //   name: "ShawnKelley.dev",
+  //   description:
+  //     "A custom React / React Router V6 portfolio site with dynamic routing and data population.",
+  //   tag: "React is fun when you finally understand it!",
+  //   technologies: ["React", "React Router V6"],
+  //   live_link: "https://www.shawnkelley.dev",
+  //   github_link: "https://github.com/shawnkelleydev/sk-ws-react",
+  // },
   {
     year: 2021,
     name: "first light",
@@ -18,6 +18,7 @@ export const projects = [
     technologies: ["React", "React Router V6"],
     live_link: "https://firstlight-skd.netlify.app",
     github_link: "https://github.com/shawnkelleydev/firstlight-fs",
+    img: "./pics/fl.png",
   },
   {
     year: 2021,
@@ -30,6 +31,7 @@ export const projects = [
     technologies: ["React", "Node", "Express", "ReST", "SQL"],
     live_link: "https://keen-perlman-642ce0.netlify.app",
     github_link: "https://github.com/shawnkelleydev/tomorrow-land-fs",
+    img: "./pics/tl.png",
   },
   {
     year: 2021,
@@ -40,6 +42,7 @@ export const projects = [
     technologies: ["React", "Node", "Express", "ReST", "SQL"],
     live_link: "https://www.whitneykelley.com",
     github_link: "https://github.com/shawnkelleydev/whitneykelley-fs",
+    img: "./pics/wk.png",
   },
   {
     year: 2021,

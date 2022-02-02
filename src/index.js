@@ -1,11 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./components/App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 //components
+import App from "./App";
 import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";

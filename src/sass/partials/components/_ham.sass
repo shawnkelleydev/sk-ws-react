@@ -1,0 +1,30 @@
+@use '../utilities/variables'
+  
+.ham
+  padding: 0
+  height: 80px
+  width: 90px
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+
+  li
+    background-color: white
+    height: 8px
+    margin: 3px
+    width: 60%
+    position: relative
+  
+  @media (min-width: variables.$break-tablet)
+    display: none
+
+.hamX
+  li:nth-child(1)
+    top: 14px
+    transform: rotate(45deg)
+  li:nth-child(2)
+    background: transparent
+  li:nth-child(3)
+    transform: rotate(-45deg)
+    bottom: 14px

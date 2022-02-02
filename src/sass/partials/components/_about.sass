@@ -1,0 +1,27 @@
+@use '../utilities/variables'
+@use '../utilities/mixins'
+
+.about
+  @media (min-width: variables.$break-tablet)
+    grid-column: 2/3
+    grid-row: 1/2
+.skills
+  ul
+    display: flex
+    flex-wrap: wrap
+
+  li
+    width: fit-content
+
+  ul li
+    margin-right: 30px
+    margin-bottom: 20px
+
+  @media (min-width: variables.$break-tablet)
+    grid-column: 1/2
+    grid-row: 1/2
+    li
+      width: 100% 
+
+.fam
+  @include mixins.fam-pic

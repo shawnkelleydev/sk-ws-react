@@ -7,7 +7,9 @@ import ReactMarkdown from "react-markdown";
 
 const Project = () => {
   const projectName = useParams().project;
-  const project = all.filter((item) => item.name === projectName)[0];
+  const project = all.filter(
+    (item) => item.name.toLowerCase() === projectName
+  )[0];
   if (!project) {
     return (
       <div className="error-div">
