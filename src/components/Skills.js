@@ -36,13 +36,19 @@ export const skills = [
     skill: "HTML",
   },
   {
-    skill: "CSS / SASS",
+    skill: "CSS",
   },
   {
-    skill: "Git / GitHub",
+    skill: "SASS",
   },
   {
-    skill: "Agile / SCRUM",
+    skill: "Git",
+  },
+  {
+    skill: "GitHub",
+  },
+  {
+    skill: "Agile / Scrum",
   },
   {
     skill: "VS Code",

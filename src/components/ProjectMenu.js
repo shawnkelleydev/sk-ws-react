@@ -5,7 +5,7 @@ const ProjectMenu = () => {
   return (
     <div>
       <h1 className="section-header">Projects</h1>
-      <div id="project-menu" className="project-menu">
+      <div className="ProjectMenu">
         <ul>
           <li>
             <h2>Development</h2>
@@ -22,20 +22,22 @@ const ProjectMenu = () => {
                     key={i}
                   >
                     <li className="project">
-                      <h3>{project.name}</h3>
-                      {project.technologies.map((tech, i) => {
-                        return (
-                          <span key={i} className="tech">
-                            {tech}
-                          </span>
-                        );
-                      })}
                       {project.img ? (
                         <img
                           src={project.img}
                           alt={project.name.toLowerCase()}
                         />
                       ) : null}
+                      <div>
+                        <h3>{project.name}</h3>
+                        {project.technologies.map((tech, i) => {
+                          return (
+                            <span key={i} className="tech">
+                              {tech}
+                            </span>
+                          );
+                        })}
+                      </div>
                     </li>
                   </HashLink>
                 );
@@ -55,8 +57,9 @@ const ProjectMenu = () => {
                     to={{ pathname: `/projects/${piece.name}`, hash: "#a" }}
                     key={Math.random()}
                   >
-                    <li key={Math.random()} className="project">
+                    <li key={Math.random()} className="piece">
                       <h3>{piece.name}</h3>
+
                       <span>{piece.year} </span>
                       <span className="uppercase">{piece.instrumentation}</span>
                     </li>
