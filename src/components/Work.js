@@ -3,7 +3,7 @@ export const projects = [
     year: 2021,
     name: "shawnkelley.dev",
     description:
-      "A custom React / React Router V6 portfolio site with dynamic routing and data population.",
+      "A custom React / React Router V6 portfolio site with dynamic routing and data population as well as fully-implemented SASS.",
     tag: "This website was fun to make!",
     technologies: ["React", "React Router V6", "SASS"],
     live_link: "https://www.shawnkelley.dev",
