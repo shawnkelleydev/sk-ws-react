@@ -23,10 +23,10 @@ const About = () => {
         </li>
         <li>
           <ul>
-            {skills.map((obj, i) => {
+            {skills.map((skill, i) => {
               return (
                 <li className="skill" key={i}>
-                  {obj.skill}
+                  {skill}
                 </li>
               );
             })}
