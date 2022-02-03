@@ -12,17 +12,6 @@ export const projects = [
   },
   {
     year: 2021,
-    name: "WhitneyKelley.com",
-    description:
-      "Whitney Kelley is a professional flutist and teacher in the Denver metro area.  She's also my wife!",
-    tag: "Her website is full-stack and features a React/React Router V6 front end with dynamic content as well as a node/express back end for handling users and contact requests.",
-    technologies: ["React", "React Router", "Node", "Express", "CSS"],
-    live_link: "https://www.whitneykelley.com",
-    github_link: "https://github.com/shawnkelleydev/whitneykelley-fs",
-    img: "../img/wk.png",
-  },
-  {
-    year: 2021,
     name: "first light",
     description:
       "First Light is a React app designed to help Christians start their day.  It's super powered by numerous API integrations with NASA, Google, and Crossway.",
@@ -34,9 +23,20 @@ export const projects = [
   },
   {
     year: 2021,
+    name: "WhitneyKelley.com",
+    description:
+      "Whitney Kelley is a professional flutist and teacher in the Denver metro area.  She's also my wife!",
+    tag: "Her website is full-stack and features a React/React Router V6 front end with dynamic content as well as a node/express back end for handling users and contact requests.",
+    technologies: ["React", "React Router", "Node", "Express", "CSS"],
+    live_link: "https://www.whitneykelley.com",
+    github_link: "https://github.com/shawnkelleydev/whitneykelley-fs",
+    img: "../img/wk.png",
+  },
+  {
+    year: 2021,
     name: "tomorrow land",
     description:
-      "Tomorrow Land is a full-stack budgeting application.  The project currently works on a local machine using SQLite3, and future development with PostgreSQL will make it functional online.",
+      "Tomorrow Land is a full-stack budgeting application.  The project must be cloned on a local machine to work due to SQLite3 not playing well with Heroku.",
     tag: "Tomorrow Land.  Shape tomorrow today.",
     bugTitle: "Heroku and SQLite3",
     bugLink: "https://devcenter.heroku.com/articles/sqlite3",
@@ -46,7 +46,7 @@ export const projects = [
     img: "../img/tl.png",
   },
   {
-    year: 2021,
+    year: 2022,
     name: "banderly",
     description:
       "Banderly is a simple beginning band assistant that takes advantage of browser MIDI technology.  It helps teachers and students know which note should be coming out of each instrument and includes a pitch-selectable metronome.",
@@ -66,103 +66,103 @@ export const projects = [
     github_link: "https://github.com/shawnkelleydev/ToDoer",
     img: "../img/td.png",
   },
-  // {
-  //   year: 2021,
-  //   name: "Full-Stack Course Library",
-  //   description: "A full-stack course library featuring user authentication.",
-  //   tag: "This was my final project from Team Treehouse.  Feel free to clone the project below and run on your local machine.",
-  //   technologies: ["React", "Node", "Express", "ReST", "SQL"],
-  //   github_link: "https://github.com/shawnkelleydev/techdegree-project-10-fs",
-  //   img: "../img/fscl.png",
-  // },
-  // {
-  //   year: 2021,
-  //   name: "SQL Library",
-  //   description:
-  //     "An editable list of library books integrating JavaScript and SQL.",
-  //   tag: " SQL Library was project from Team Treehouse, running on Heroku (please forgive sleepy Dyno delays).",
-  //   technologies: ["Node", "Express", "SQL"],
-  //   live_link: "https://intense-shore-26930.herokuapp.com/books",
-  //   github_link: "https://github.com/shawnkelleydev/techdegree-project-8-sql",
-  //   img: "../img/sqll.png",
-  // },
-  // {
-  //   year: 2021,
-  //   name: "React Gallery",
-  //   description: "A React / React Router V5 integration with Flickr API.",
-  //   tag: "CSS for this project was provided by Team Treehouse.",
-  //   technologies: ["React", "React Router V5", "Axios"],
-  //   live_link: "https://gifted-payne-38443a.netlify.app",
-  //   github_link: "https://github.com/shawnkelleydev/techdegree-project-7-react",
-  //   img: "../img/rg.png",
-  // },
-  // {
-  //   year: 2021,
-  //   name: "Express Portfolio",
-  //   description:
-  //     "An Express / Pug portfolio project.  It's running on Heroku, so there may be a slight delay if the Dyno is sleeping.",
-  //   tag: "CSS for this project was provided by Team Treehouse.",
-  //   technologies: ["Node", "Express", "Pug"],
-  //   live_link: "https://sk-express-portfolio-tth.herokuapp.com",
-  //   github_link: "https://github.com/shawnkelleydev/techdegree-project-7",
-  //   img: "../img/ep.png",
-  // },
-  // {
-  //   year: 2021,
-  //   name: "API employee directory",
-  //   description:
-  //     "An API project with a gallery, search functionality, modals, and modal navigation.",
-  //   tag: "HTML and CSS for this project were provided by Team Treehouse.",
-  //   technologies: ["JavaScript", "Fetch API"],
-  //   live_link: "https://shawnkelleydev.github.io/techdegree-project-5/",
-  //   github_link: "https://github.com/shawnkelleydev/techdegree-project-5",
-  //   img: "../img/apied.png",
-  // },
+  {
+    year: 2021,
+    name: "Full-Stack Course Library",
+    description: "A full-stack course library featuring user authentication.",
+    tag: "This was my final project from Team Treehouse.  Feel free to clone the project below and run on your local machine.",
+    technologies: ["React", "Node", "Express", "ReST", "SQL"],
+    github_link: "https://github.com/shawnkelleydev/techdegree-project-10-fs",
+    // img: "../img/fscl.png",
+  },
+  {
+    year: 2021,
+    name: "SQL Library",
+    description:
+      "An editable list of library books integrating JavaScript and SQL.",
+    tag: " SQL Library was project from Team Treehouse, running on Heroku (please forgive sleepy Dyno delays).",
+    technologies: ["Node", "Express", "SQL"],
+    live_link: "https://intense-shore-26930.herokuapp.com/books",
+    github_link: "https://github.com/shawnkelleydev/techdegree-project-8-sql",
+    // img: "../img/sqll.png",
+  },
+  {
+    year: 2021,
+    name: "React Gallery",
+    description: "A React / React Router V5 integration with Flickr API.",
+    tag: "CSS for this project was provided by Team Treehouse.",
+    technologies: ["React", "React Router V5", "Axios"],
+    live_link: "https://gifted-payne-38443a.netlify.app",
+    github_link: "https://github.com/shawnkelleydev/techdegree-project-7-react",
+    // img: "../img/rg.png",
+  },
+  {
+    year: 2021,
+    name: "Express Portfolio",
+    description:
+      "An Express / Pug portfolio project.  It's running on Heroku, so there may be a slight delay if the Dyno is sleeping.",
+    tag: "CSS for this project was provided by Team Treehouse.",
+    technologies: ["Node", "Express", "Pug"],
+    live_link: "https://sk-express-portfolio-tth.herokuapp.com",
+    github_link: "https://github.com/shawnkelleydev/techdegree-project-7",
+    // img: "../img/ep.png",
+  },
+  {
+    year: 2021,
+    name: "API employee directory",
+    description:
+      "An API project with a gallery, search functionality, modals, and modal navigation.",
+    tag: "HTML and CSS for this project were provided by Team Treehouse.",
+    technologies: ["JavaScript", "Fetch API"],
+    live_link: "https://shawnkelleydev.github.io/techdegree-project-5/",
+    github_link: "https://github.com/shawnkelleydev/techdegree-project-5",
+    // img: "../img/apied.png",
+  },
 
-  // {
-  //   year: 2021,
-  //   name: "OOP game",
-  //   description:
-  //     "An OOP project in the form of a responsive phrase-hunting game with keyboard functionality.",
-  //   tag: "Phrase Hunter's CSS was provided by Team Treehouse and not designed to be mobile-friendly, so a wider-than-phone screen is recommended.",
-  //   technologies: ["JavaScript", "OOP"],
-  //   live_link: "https://shawnkelleydev.github.io/techdegree-project-4/",
-  //   github_link: "https://github.com/shawnkelleydev/techdegree-project-4",
-  //   img: "../img/oop.png",
-  // },
-  // {
-  //   year: 2021,
-  //   name: "responsive form validation",
-  //   description:
-  //     "This project demonstrates live form validation using regular expressions.  It also responsively prevents schedule conflicts.",
-  //   tag: "HTML and CSS for this project were provided by Team Treehouse.",
-  //   technologies: ["JavaScript", "RegEx"],
-  //   live_link: "https://shawnkelleydev.github.io/techdegree-project-3/",
-  //   github_link: "https://github.com/shawnkelleydev/techdegree-project-3",
-  //   img: "../img/rfv.png",
-  // },
-  // {
-  //   year: 2021,
-  //   name: "student list pagination",
-  //   description:
-  //     "This project demonstrates population, pagination, and search of a list of 42 students.",
-  //   tag: "HTML and CSS for this project were provided by Team Treehouse.",
-  //   technologies: ["JavaScript"],
-  //   live_link: "https://shawnkelleydev.github.io/techdegree-project-2/",
-  //   github_link: "https://github.com/shawnkelleydev/techdegree-project-2",
-  //   img: "../img/slp.png",
-  // },
-  // {
-  //   year: 2021,
-  //   name: "random quotes",
-  //   description:
-  //     "This project features JavaScript-selected quotes over a JavaScript-selected background color, refreshing every 7 seconds.",
-  //   tag: "HTML and CSS for this project were provided by Team Treehouse.",
-  //   technologies: ["JavaScript"],
-  //   live_link: "https://shawnkelleydev.github.io/techdegree-project-1/",
-  //   github_link: "https://github.com/shawnkelleydev/techdegree-project-1",
-  //   img: "../img/rq.png",
-  // },
+  {
+    year: 2021,
+    name: "OOP game",
+    description:
+      "An OOP project in the form of a responsive phrase-hunting game with keyboard functionality.",
+    tag: "Phrase Hunter's CSS was provided by Team Treehouse and not designed to be mobile-friendly, so a wider-than-phone screen is recommended.",
+    technologies: ["JavaScript", "OOP"],
+    live_link: "https://shawnkelleydev.github.io/techdegree-project-4/",
+    github_link: "https://github.com/shawnkelleydev/techdegree-project-4",
+    // img: "../img/oop.png",
+  },
+  {
+    year: 2021,
+    name: "responsive form validation",
+    description:
+      "This project demonstrates live form validation using regular expressions.  It also responsively prevents schedule conflicts.",
+    tag: "HTML and CSS for this project were provided by Team Treehouse.",
+    technologies: ["JavaScript", "RegEx"],
+    live_link: "https://shawnkelleydev.github.io/techdegree-project-3/",
+    github_link: "https://github.com/shawnkelleydev/techdegree-project-3",
+    // img: "../img/rfv.png",
+  },
+  {
+    year: 2021,
+    name: "student list pagination",
+    description:
+      "This project demonstrates population, pagination, and search of a list of 42 students.",
+    tag: "HTML and CSS for this project were provided by Team Treehouse.",
+    technologies: ["JavaScript"],
+    live_link: "https://shawnkelleydev.github.io/techdegree-project-2/",
+    github_link: "https://github.com/shawnkelleydev/techdegree-project-2",
+    // img: "../img/slp.png",
+  },
+  {
+    year: 2021,
+    name: "random quotes",
+    description:
+      "This project features JavaScript-selected quotes over a JavaScript-selected background color, refreshing every 7 seconds.",
+    tag: "HTML and CSS for this project were provided by Team Treehouse.",
+    technologies: ["JavaScript"],
+    live_link: "https://shawnkelleydev.github.io/techdegree-project-1/",
+    github_link: "https://github.com/shawnkelleydev/techdegree-project-1",
+    // img: "../img/rq.png",
+  },
 ];
 
 export const music = [

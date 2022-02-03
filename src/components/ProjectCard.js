@@ -11,7 +11,9 @@ export default function ProjectCard(props) {
     >
       {props.project.img ? (
         <img src={props.project.img} alt={props.project.name.toLowerCase()} />
-      ) : null}
+      ) : (
+        <div></div>
+      )}
       <div>
         <h3>{props.project.name}</h3>
         <ul>

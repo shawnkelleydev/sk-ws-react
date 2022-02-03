@@ -120,6 +120,11 @@ button {
   margin-bottom: 10px;
   font-size: 1.1em;
 }
+@media (min-width: 768px) {
+  button:hover {
+    background: #e7aa63;
+  }
+}
 
 .error {
   margin-bottom: 20px;
@@ -200,12 +205,13 @@ header .logo {
 }
 
 footer {
-  @includes mixins.flexy();
+  display: flex;
   margin-top: 50px;
   padding-bottom: 80px;
 }
 footer ul {
-  @includes mixins.flexy($dir: column-reverse);
+  display: flex;
+  flex-direction: column-reverse;
   height: auto;
   text-transform: capitalize;
   text-align: center;
@@ -406,6 +412,11 @@ nav a {
   width: 95vw;
   margin: 24px 0;
   max-width: 1000px;
+}
+.Project div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .Project h1, .Project h2 {
   text-align: left;
