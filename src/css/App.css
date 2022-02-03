@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  width: 100%;
   font-family: "Montserrat", sans-serif;
   transition: all 150ms ease;
 }
@@ -140,6 +139,9 @@ body, #root {
 }
 
 .header-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   max-width: 900px;
 }
 
@@ -151,6 +153,7 @@ header {
   position: fixed;
   bottom: 0;
   background: #5b776a;
+  width: 100vw;
 }
 header h1 {
   background: none;
@@ -290,54 +293,94 @@ nav a {
 }
 
 .ProjectMenu {
+  width: 100vw;
   max-width: 900px;
-  text-transform: capitalize;
-  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.ProjectMenu ul {
-  margin-bottom: 20px;
-}
-.ProjectMenu h2 {
-  margin-bottom: 24px;
+.ProjectMenu h1 {
   text-align: center;
 }
+.ProjectMenu > div {
+  width: 95vw;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
 @media (min-width: 768px) {
-  .ProjectMenu {
-    display: grid;
-    align-items: flex-start;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+  .ProjectMenu > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 24px;
   }
 }
 
-.piece, .project {
-  width: auto;
+.ProjectCard {
+  margin-bottom: 8px;
   padding: 16px;
-  border: none;
-  margin-bottom: 16px;
-  box-shadow: 0 0 8px gray;
   border-radius: 8px;
-}
-.piece span, .project span {
-  color: black;
+  box-shadow: 0 0 5px gray;
+  display: grid;
+  grid-template-columns: 30% 70%;
 }
 @media (min-width: 768px) {
-  .piece:hover, .project:hover {
+  .ProjectCard {
+    display: flex;
+    flex: 1 200px;
+    align-items: flex-start;
+    margin: 0;
+    padding: 24px;
+  }
+  .ProjectCard:hover {
     background: #e7aa63;
   }
 }
-
-.project {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  gap: 8px;
+.ProjectCard img {
+  width: 100%;
+  box-shadow: 0 0 5px gray;
 }
-.project div {
+@media (min-width: 768px) {
+  .ProjectCard img {
+    max-width: 180px;
+    width: auto;
+  }
+}
+.ProjectCard div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  grid-column: 2/3;
+  padding-left: 8px;
+  width: fit-content;
+}
+@media (min-width: 768px) {
+  .ProjectCard div {
+    padding-left: 16px;
+  }
+}
+.ProjectCard h3 {
+  margin-bottom: 8px;
+  font-size: 1em;
+}
+@media (min-width: 768px) {
+  .ProjectCard h3 {
+    font-size: 1.2em;
+  }
+}
+.ProjectCard ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ProjectCard li {
+  color: black;
+  font-size: 0.9em;
+}
+@media (min-width: 768px) {
+  .ProjectCard li {
+    font-size: 1em;
+  }
 }
 
 .projects-div h1 {

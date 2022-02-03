@@ -2,6 +2,8 @@
 @use '../utilities/variables'
 
 .header-content
+  width: 100%
+  @include mixins.flexy($justify: space-between)
   @include mixins.max-width
 
 header
@@ -9,6 +11,7 @@ header
   position: fixed
   bottom: 0
   background: variables.$color-primary //green
+  width: 100vw
   h1
     background: none
     padding: 0
