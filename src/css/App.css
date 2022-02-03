@@ -327,8 +327,7 @@ nav a {
 .ProjectCard {
   margin-bottom: 8px;
   padding: 16px;
-  border-radius: 8px;
-  box-shadow: 0 0 5px gray;
+  box-shadow: 0 0 8px gray;
   display: grid;
   grid-template-columns: 30% 70%;
 }
@@ -346,7 +345,7 @@ nav a {
 }
 .ProjectCard img {
   width: 100%;
-  box-shadow: 0 0 5px gray;
+  box-shadow: 0 0 4px gray;
 }
 @media (min-width: 768px) {
   .ProjectCard img {
