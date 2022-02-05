@@ -1,7 +1,7 @@
 export const projects = [
   {
     year: 2021,
-    name: "shawnkelley.dev",
+    name: "shawn kelley",
     description:
       "A custom React / React Router V6 portfolio site with dynamic routing and data population as well as fully-implemented SASS.",
     tag: "This website was fun to make!",
@@ -23,7 +23,7 @@ export const projects = [
   },
   {
     year: 2021,
-    name: "WhitneyKelley.com",
+    name: "whitney kelley",
     description:
       "Whitney Kelley is a professional flutist and teacher in the Denver metro area.  She's also my wife!",
     tag: "Her website is full-stack and features a React/React Router V6 front end with dynamic content as well as a node/express back end for handling users and contact requests.",
