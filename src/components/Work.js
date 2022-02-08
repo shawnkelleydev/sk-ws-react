@@ -1,7 +1,7 @@
 export const projects = [
   {
     year: 2021,
-    name: "shawn kelley",
+    name: "shawn kelley developer",
     description: [
       "A custom React / React Router V6 portfolio site with dynamic routing and data population as well as fully-implemented SASS.",
       "This project is entirely WCAG AA and almost-entirely AAA compliant.",
@@ -10,6 +10,18 @@ export const projects = [
     live_link: "https://www.shawnkelley.dev",
     github_link: "https://github.com/shawnkelleydev/sk-ws-react",
     img: "../img/skd.png",
+  },
+  {
+    year: 2021,
+    name: "shawn kelley music",
+    description: [
+      "This website is the home of my other life in music composition and features React with React Router V6 and SASS.",
+      "The project is entirely WCAG AA and almost-entirely AAA compliant.",
+    ],
+    technologies: ["React", "React Router V6", "SASS"],
+    live_link: "https://www.shawnkelleymusic.com",
+    github_link: "https://github.com/shawnkelleydev/shawn_kelley_music",
+    img: "../img/skm.png",
   },
   {
     year: 2021,
