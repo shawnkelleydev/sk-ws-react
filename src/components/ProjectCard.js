@@ -15,7 +15,7 @@ export default function ProjectCard(props) {
         <div></div>
       )}
       <div>
-        <h3>{props.project.name}</h3>
+        <h1>{props.project.name}</h1>
         <ul>
           {props.project.technologies.map((tech, i) => {
             return (

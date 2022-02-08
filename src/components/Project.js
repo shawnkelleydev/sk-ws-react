@@ -34,7 +34,9 @@ const Project = () => {
             </ul>
           ) : null}
 
-          <ReactMarkdown children={project.description} />
+          {project.description.map((par, i) => (
+            <p key={i}>{par}</p>
+          ))}
 
           <p>{project.tag}</p>
 

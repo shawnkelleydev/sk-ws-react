@@ -50,11 +50,11 @@
 
 a
   text-decoration: none
-  color: variables.$color-headline
+  color: darken(variables.$color-headline, 10%)
   cursor: pointer
-  @media (min-width: variables.$break-desktop)
-    &:hover
-      color: variables.$color-accent
+  &:hover
+    text-decoration: underline
+
 
 ul
   list-style: none
@@ -96,6 +96,7 @@ button
   @media(min-width: variables.$break-tablet)
     &:hover
       background: variables.$color-accent
+      color: black
 
 // 404
 

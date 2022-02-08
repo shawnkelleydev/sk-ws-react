@@ -14,7 +14,7 @@ const Header = () => {
             <img src={logoOrange} alt="logo" className="logo" />
             <span>
               <h1>Shawn Kelley</h1>
-              <h3>Developer. Musician.</h3>
+              <span className="uppercase">developer</span>
             </span>
           </Link>
         </div>

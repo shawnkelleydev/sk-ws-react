@@ -2,7 +2,6 @@ export const skills = [
   "JavaScript",
   "React",
   "React Router",
-  "React Native",
   "Node",
   "Express",
   "ReST",

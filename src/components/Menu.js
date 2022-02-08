@@ -12,32 +12,24 @@ const Menu = () => {
     ham.className = "ham";
   };
 
+  const pages = ["about", "projects"];
+
   return (
     <nav className="hide">
-      <HashLink
-        to={{ pathname: "/about", hash: "#a" }}
-        onClick={() => {
-          reset();
-        }}
-        id="about"
-        className={location === "/about" ? "active about" : "about"}
-      >
-        About
-      </HashLink>
-      <HashLink
-        to={{ pathname: "/projects", hash: "#a" }}
-        onClick={() => {
-          reset();
-        }}
-        id="projects"
-        className={
-          location === "/projects" || location.split("/")[1] === "projects"
-            ? "active projects"
-            : "projects"
-        }
-      >
-        Projects
-      </HashLink>
+      {pages.map((page, i) => (
+        <HashLink
+          key={i}
+          to={{ pathname: `/${page}`, hash: "#a" }}
+          onClick={() => {
+            reset();
+          }}
+          id={`menu-${i + 1}`}
+          className={location === `/${page}` ? "active" : null}
+        >
+          {page}
+        </HashLink>
+      ))}
+
       <a
         href="https://www.linkedin.com/in/shawnkelleydev/"
         target="_blank"

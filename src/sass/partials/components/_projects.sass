@@ -5,6 +5,8 @@
   width: 100vw
   @include mixins.max-width
   @include mixins.flexy($dir: column, $align: center)
+  a:hover 
+    text-decoration: none
   h1
     text-align: center
   > div
@@ -31,8 +33,6 @@
     align-items: flex-start
     margin: 0
     padding: 24px
-    &:hover
-      background: variables.$color-accent
   img
     width: 100%
     box-shadow: 0 0 4px gray
@@ -45,9 +45,10 @@
     width: fit-content
     @media(min-width: variables.$break-tablet)
       padding-left: 16px
-  h3
+  h1
     margin-bottom: 8px
     font-size: 1em
+    text-align: left
     @media(min-width: variables.$break-tablet)
       font-size: 1.2em
   ul
