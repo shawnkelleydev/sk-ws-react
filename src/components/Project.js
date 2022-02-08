@@ -1,7 +1,6 @@
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
 import { all } from "./Work";
-import ReactMarkdown from "react-markdown";
 
 const Project = () => {
   const projectName = useParams().project;
