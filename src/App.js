@@ -7,14 +7,13 @@ import "./css/App.css";
 
 function App() {
   return (
-    <div className="App">
-      <span id="a" />
-      <Header />
+    <div className="App" id="a">
       {/* #content-parent used for sticky footer */}
       <div id="content-parent" className="content-parent">
         <Outlet />
       </div>
       <Footer />
+      <Header />
     </div>
   );
 }

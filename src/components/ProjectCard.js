@@ -1,13 +1,49 @@
+import { useState, useEffect, useRef } from "react";
 import { HashLink } from "react-router-hash-link";
 
 export default function ProjectCard(props) {
+  const [show, setShow] = useState(false);
+  const [y, setY] = useState(null);
+  const [h, setH] = useState(null);
+  const [id, setId] = useState(null);
+  const [compY, setCompY] = useState(null);
+
+  const card = useRef(null);
+
+  useEffect(() => {
+    setY(props.y);
+    setH(props.h);
+    setId("project-" + props.i);
+  }, [props]);
+
+  useEffect(() => {
+    if (y && h && id) {
+      let getId = "#" + id;
+      let item = document.querySelector(getId);
+      let yFromViewportTop = parseInt(
+        item.getBoundingClientRect().y.toFixed(0)
+      );
+      setCompY(yFromViewportTop);
+    }
+  }, [y, h, id]);
+
+  useEffect(() => {
+    if (compY < h - 100) {
+      setShow(true);
+    } else {
+      setShow(false);
+    }
+  }, [h, compY]);
+
   return (
     <HashLink
       to={{
         pathname: `/projects/${props.project.name.toLowerCase()}`,
         hash: "#a",
       }}
-      className="ProjectCard"
+      className={show ? "ProjectCard" : "ProjectCard ProjectCard-hide"}
+      ref={card}
+      id={id}
     >
       {props.project.img ? (
         <img src={props.project.img} alt={props.project.name.toLowerCase()} />

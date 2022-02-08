@@ -5,6 +5,12 @@
   transition: all 150ms ease;
 }
 
+@media screen and (min-width: 768px) {
+  .App {
+    padding-top: 80px;
+  }
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -194,7 +200,8 @@ header .logo {
 }
 @media (min-width: 768px) {
   header {
-    position: static;
+    top: 0;
+    bottom: auto;
     margin-bottom: 20px;
   }
   header h3 {
@@ -333,6 +340,13 @@ nav a {
   box-shadow: 0 0 8px gray;
   display: grid;
   grid-template-columns: 30% 70%;
+  transform: translate(0);
+  transition: all 0.3s ease;
+}
+.ProjectCard-hide {
+  transform: translate(-10%);
+  box-shadow: none;
+  opacity: 0;
 }
 @media (min-width: 768px) {
   .ProjectCard {
