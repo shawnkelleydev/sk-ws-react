@@ -29,6 +29,7 @@ export const projects = [
     description: [
       "Whitney Kelley is a professional flutist and teacher in the Denver metro area.  She's also my wife!",
       "Her website is full-stack and features a React/React Router V6 front end with dynamic content as well as a node/express back end for handling users and contact requests.",
+      "Additionally, the project is fully accessible and almost 100% WCAG AAA compliant.",
       "Whitney's the best teacher I've ever known.  If you and yours need flute lessons, I encourage you to reach out to her.",
     ],
     technologies: ["React", "React Router", "Node", "Express", "CSS"],
