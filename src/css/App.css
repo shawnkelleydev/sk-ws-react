@@ -111,17 +111,16 @@ button {
   border-radius: 8px;
   cursor: pointer;
   width: 200px;
-  border: none;
   background-color: black;
   color: white;
   padding: 20px;
   margin-bottom: 10px;
+  border: none;
   font-size: 1.1em;
 }
-@media (min-width: 768px) {
+@media (min-width: 962px) {
   button:hover {
-    background: #EFC79A;
-    color: black;
+    background: #005c7a;
   }
 }
 

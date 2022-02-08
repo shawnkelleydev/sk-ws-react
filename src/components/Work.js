@@ -4,8 +4,8 @@ export const projects = [
     name: "shawn kelley",
     description: [
       "A custom React / React Router V6 portfolio site with dynamic routing and data population as well as fully-implemented SASS.",
+      "This project is entirely WCAG AA and almost-entirely AAA compliant",
     ],
-    tag: "This website was fun to make and is entirely WCAG AA and almost-entirely AAA compliant.",
     technologies: ["React", "React Router V6", "SASS"],
     live_link: "https://www.shawnkelley.dev",
     github_link: "https://github.com/shawnkelleydev/sk-ws-react",
