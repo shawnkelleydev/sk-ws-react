@@ -1,0 +1,15 @@
+@use '../utilities/mixins'
+@use '../utilities/variables'
+
+$gutter: 24px
+
+.ProjectMenu
+  width: 100vw
+  @include mixins.max-width
+  .grid
+    display: grid
+    align-items: stretch
+    width: 100%
+    gap: $gutter
+    padding: $gutter
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr))

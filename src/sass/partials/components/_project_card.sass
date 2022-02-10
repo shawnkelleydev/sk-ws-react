@@ -1,0 +1,33 @@
+@use '../utilities/mixins'
+@use '../utilities/variables'
+
+.ProjectCard
+  @include mixins.flex-col 
+    align-items: flex-start
+    justify-content: space-between
+  padding: 24px
+  box-shadow: 0 0 10px gray
+  &:hover
+    text-decoration: none
+  img
+    max-height: 120px
+  h1
+    font-size: 1.3em
+    margin: 0
+    margin-bottom: 16px
+  p
+    margin-bottom: 16px
+    color: black
+  ul
+    @include mixins.flex-row
+    color: black
+  div
+    @include mixins.flex-col
+      align-items: flex-start
+
+  .line
+    width: 60px
+    border-bottom: 3px solid variables.$color-primary
+    margin-bottom: 8px
+
+  

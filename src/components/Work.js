@@ -2,11 +2,12 @@ export const projects = [
   {
     year: 2021,
     name: "shawn kelley developer",
+    shortDesc: "My software engineering portfolio site.",
     description: [
-      "A custom React / React Router V6 portfolio site with dynamic routing and data population as well as fully-implemented SASS.",
+      "A custom React / React Router v6 portfolio site with dynamic routing and data population as well as fully-implemented SASS.",
       "This project is entirely WCAG AA and almost-entirely AAA compliant.",
     ],
-    technologies: ["React", "React Router V6", "SASS"],
+    technologies: ["React", "React Router v6", "SASS"],
     live_link: "https://www.shawnkelley.dev",
     github_link: "https://github.com/shawnkelleydev/sk-ws-react",
     img: "../img/skd.png",
@@ -14,11 +15,12 @@ export const projects = [
   {
     year: 2021,
     name: "shawn kelley music",
+    shortDesc: "A website for my work in music composition.",
     description: [
-      "This website is the home of my other life in music composition and features React with React Router V6 and SASS.",
+      "This website is the home of my other life in music composition and features React with React Router v6 and SASS.",
       "The project is entirely WCAG AA and almost-entirely AAA compliant.",
     ],
-    technologies: ["React", "React Router V6", "SASS"],
+    technologies: ["React", "React Router v6", "SASS"],
     live_link: "https://www.shawnkelleymusic.com",
     github_link: "https://github.com/shawnkelleydev/shawn_kelley_music",
     img: "../img/skm.png",
@@ -26,11 +28,12 @@ export const projects = [
   {
     year: 2021,
     name: "first light",
+    shortDesc: "A simple way for Christians to start their day.",
     description: [
       "First Light is a React app designed to help Christians start their day.  It's super powered by numerous API integrations with NASA, Google, and Crossway.",
     ],
     tag: "First Light.  Find your way for the day.",
-    technologies: ["React", "React Router V6", "Fetch API", "SASS"],
+    technologies: ["React", "React Router v6", "Fetch API", "SASS"],
     live_link: "https://firstlight-skd.netlify.app",
     github_link: "https://github.com/shawnkelleydev/firstlight-fs",
     img: "../img/fl.png",
@@ -38,13 +41,14 @@ export const projects = [
   {
     year: 2021,
     name: "whitney kelley",
+    shortDesc: "The internet home of flutist, Whitney Kelley.",
     description: [
       "Whitney Kelley is a professional flutist and teacher in the Denver metro area.  She's also my wife!",
-      "Her website is full-stack and features a React/React Router V6 front end with dynamic content as well as a node/express back end for handling users and contact requests.",
+      "Her website is full-stack and features a React/React Router v6 front end with dynamic content as well as a node/express back end for handling users and contact requests.",
       "Additionally, the project is fully accessible and almost 100% WCAG AAA compliant.",
       "Whitney's the best teacher I've ever known.  If you and yours need flute lessons, I encourage you to reach out to her.",
     ],
-    technologies: ["React", "React Router", "Node", "Express", "CSS"],
+    technologies: ["React", "React Router v6", "Node", "Express", "CSS"],
     live_link: "https://www.whitneykelley.com",
     github_link: "https://github.com/shawnkelleydev/whitneykelley-fs",
     img: "../img/wk.png",
@@ -52,6 +56,7 @@ export const projects = [
   {
     year: 2021,
     name: "tomorrow land",
+    shortDesc: "A full-stack budgeting app.",
     description: [
       "Tomorrow Land is a full-stack budgeting application.",
       "The project must be cloned on a local machine to work due to SQLite3 not playing well with Heroku.",
@@ -67,6 +72,7 @@ export const projects = [
   {
     year: 2022,
     name: "banderly",
+    shortDesc: "A beginning band helper app.",
     description: [
       "Banderly is a simple beginning band assistant that takes advantage of browser MIDI technology.",
       "It helps teachers and students know which note should be coming out of each instrument and includes a pitch-selectable metronome.",
@@ -80,6 +86,7 @@ export const projects = [
   {
     year: 2021,
     name: "ToDoer",
+    shortDesc: "A simple, vanilla JS task tracker.",
     description: [
       "ToDoer is an extremely simple vanilla JavaScript task tracker.",
       "It was a personal project and uses local storage to save user input between visits.",
@@ -91,7 +98,8 @@ export const projects = [
   },
   {
     year: 2021,
-    name: "Full-Stack Course Library",
+    name: "Full Stack Course Library",
+    shortDesc: "A Team Treehouse Techdegree Project.",
     description: [
       "A full-stack course library featuring user authentication.",
       "This was my final project from Team Treehouse.  Feel free to clone the project below and run on your local machine.",
@@ -103,6 +111,7 @@ export const projects = [
   {
     year: 2021,
     name: "SQL Library",
+    shortDesc: "A Team Treehouse Techdegree Project.",
     description: [
       "An editable list of library books integrating JavaScript and SQL.",
       [
@@ -117,6 +126,7 @@ export const projects = [
   {
     year: 2021,
     name: "React Gallery",
+    shortDesc: "A Team Treehouse Techdegree Project.",
     description: [
       "A React / React Router V5 integration with Flickr API.",
       "CSS for this project was provided by Team Treehouse.",
@@ -129,6 +139,7 @@ export const projects = [
   {
     year: 2021,
     name: "Express Portfolio",
+    shortDesc: "A Team Treehouse Techdegree Project.",
     description: [
       "An Express / Pug portfolio project.  It's running on Heroku, so there may be a slight delay if the Dyno is sleeping.",
       "CSS for this project was provided by Team Treehouse.",
@@ -141,6 +152,7 @@ export const projects = [
   {
     year: 2021,
     name: "API employee directory",
+    shortDesc: "A Team Treehouse Techdegree Project.",
     description: [
       "An API project with a gallery, search functionality, modals, and modal navigation.",
       "HTML and CSS for this project were provided by Team Treehouse.",
@@ -154,6 +166,7 @@ export const projects = [
   {
     year: 2021,
     name: "OOP game",
+    shortDesc: "A Team Treehouse Techdegree Project.",
     description: [
       "An OOP project in the form of a responsive phrase-hunting game with keyboard functionality.",
       "Phrase Hunter's CSS was provided by Team Treehouse and not designed to be mobile-friendly, so a wider-than-phone screen is recommended.",
@@ -166,6 +179,7 @@ export const projects = [
   {
     year: 2021,
     name: "responsive form validation",
+    shortDesc: "A Team Treehouse Techdegree Project.",
     description: [
       "This project demonstrates live form validation using regular expressions.  It also responsively prevents schedule conflicts.",
       "HTML and CSS for this project were provided by Team Treehouse.",
@@ -178,6 +192,7 @@ export const projects = [
   {
     year: 2021,
     name: "student list pagination",
+    shortDesc: "A Team Treehouse Techdegree Project.",
     description: [
       "This project demonstrates population, pagination, and search of a list of 42 students.",
       "HTML and CSS for this project were provided by Team Treehouse.",
@@ -190,6 +205,7 @@ export const projects = [
   {
     year: 2021,
     name: "random quotes",
+    shortDesc: "A Team Treehouse Techdegree Project.",
     description: [
       "This project features JavaScript-selected quotes over a JavaScript-selected background color, refreshing every 7 seconds.",
       "HTML and CSS for this project were provided by Team Treehouse.",

@@ -8,6 +8,17 @@
   flex-wrap: $wrap
   @content
 
+@mixin flex-col
+  display: flex
+  flex-direction: column
+  align-items: center
+  @content
+
+@mixin flex-row
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+
 @mixin max-width
   max-width: 900px
 

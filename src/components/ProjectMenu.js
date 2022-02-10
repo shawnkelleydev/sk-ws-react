@@ -30,7 +30,7 @@ const ProjectMenu = () => {
   return (
     <div className="ProjectMenu">
       <h1 className="section-header">Projects</h1>
-      <div>
+      <div className="grid">
         {projects.map((project, i) => {
           return (
             <ProjectCard project={project} h={h} y={y} i={i + 1} key={i} />

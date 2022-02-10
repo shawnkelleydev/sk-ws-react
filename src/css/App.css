@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
-  transition: all 150ms ease;
+  box-sizing: border-box;
 }
 
 @media screen and (min-width: 768px) {
@@ -308,152 +308,14 @@ nav a {
 .ProjectMenu {
   width: 100vw;
   max-width: 900px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
-.ProjectMenu a:hover {
-  text-decoration: none;
-}
-.ProjectMenu h1 {
-  text-align: center;
-}
-.ProjectMenu > div {
-  width: 95vw;
-  max-width: 900px;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-}
-@media (min-width: 768px) {
-  .ProjectMenu > div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 24px;
-  }
-}
-
-.ProjectCard {
-  margin-bottom: 8px;
-  padding: 16px;
-  box-shadow: 0 0 8px gray;
+.ProjectMenu .grid {
   display: grid;
-  grid-template-columns: 30% 70%;
-  transform: translate(0);
-  transition: all 0.3s ease;
-}
-.ProjectCard-hide {
-  transform: translate(-10%);
-  box-shadow: none;
-  opacity: 0;
-}
-@media (min-width: 768px) {
-  .ProjectCard {
-    display: flex;
-    flex: 1 200px;
-    align-items: flex-start;
-    margin: 0;
-    padding: 24px;
-  }
-}
-.ProjectCard img {
+  align-items: stretch;
   width: 100%;
-  box-shadow: 0 0 4px gray;
-}
-@media (min-width: 768px) {
-  .ProjectCard img {
-    max-width: 180px;
-    width: auto;
-  }
-}
-.ProjectCard div {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-left: 8px;
-  width: fit-content;
-}
-@media (min-width: 768px) {
-  .ProjectCard div {
-    padding-left: 16px;
-  }
-}
-.ProjectCard h1 {
-  margin-bottom: 8px;
-  font-size: 1em;
-  text-align: left;
-}
-@media (min-width: 768px) {
-  .ProjectCard h1 {
-    font-size: 1.2em;
-  }
-}
-.ProjectCard ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-.ProjectCard li {
-  color: black;
-  font-size: 0.9em;
-}
-@media (min-width: 768px) {
-  .ProjectCard li {
-    font-size: 1em;
-  }
-}
-
-.projects-div h1 {
-  margin-top: 20px;
-}
-
-.preview {
-  width: 80vw;
-  max-width: 375px;
-  height: 85vh;
-  max-height: 812px;
-  border-radius: 56px;
-  border: 8px solid #2a2a2a;
-}
-
-.tech {
-  margin-right: 10px;
-}
-
-.Project {
-  display: flex;
-  flex-direction: column;
-  width: 95vw;
-  margin: 24px 0;
-  max-width: 1000px;
-}
-.Project div {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-.Project h1, .Project h2 {
-  text-align: left;
-  width: 100%;
-  margin-bottom: 24px;
-}
-.Project ul {
-  margin-bottom: 48px;
-}
-.Project p {
-  margin-bottom: 24px;
-}
-.Project .btns {
-  margin-top: 24px;
-}
-@media (min-width: 768px) {
-  .Project {
-    display: grid;
-    align-items: flex-start;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    gap: 24px;
-  }
+  gap: 24px;
+  padding: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
 .fam-front {
@@ -529,6 +391,101 @@ nav a {
   .fam {
     width: 100%;
   }
+}
+
+.projects-div h1 {
+  margin-top: 20px;
+}
+
+.preview {
+  width: 80vw;
+  max-width: 375px;
+  height: 85vh;
+  max-height: 812px;
+  border-radius: 56px;
+  border: 8px solid #2a2a2a;
+}
+
+.tech {
+  margin-right: 10px;
+}
+
+.Project {
+  display: flex;
+  flex-direction: column;
+  width: 95vw;
+  margin: 24px 0;
+  max-width: 1000px;
+}
+.Project div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Project h1, .Project h2 {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 24px;
+}
+.Project ul {
+  margin-bottom: 48px;
+}
+.Project p {
+  margin-bottom: 24px;
+}
+.Project .btns {
+  margin-top: 24px;
+}
+@media (min-width: 768px) {
+  .Project {
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 24px;
+  }
+}
+
+.ProjectCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 24px;
+  box-shadow: 0 0 10px gray;
+}
+.ProjectCard:hover {
+  text-decoration: none;
+}
+.ProjectCard img {
+  max-height: 120px;
+}
+.ProjectCard h1 {
+  font-size: 1.3em;
+  margin: 0;
+  margin-bottom: 16px;
+}
+.ProjectCard p {
+  margin-bottom: 16px;
+  color: black;
+}
+.ProjectCard ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: black;
+}
+.ProjectCard div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+}
+.ProjectCard .line {
+  width: 60px;
+  border-bottom: 3px solid #465D52;
+  margin-bottom: 8px;
 }
 
 /*# sourceMappingURL=App.css.map */

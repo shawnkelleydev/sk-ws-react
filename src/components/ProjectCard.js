@@ -45,13 +45,12 @@ export default function ProjectCard(props) {
       ref={card}
       id={id}
     >
-      {props.project.img ? (
-        <img src={props.project.img} alt={props.project.name.toLowerCase()} />
-      ) : (
-        <div></div>
-      )}
       <div>
         <h1>{props.project.name}</h1>
+        <p>{props.project.shortDesc}</p>
+      </div>
+      <div>
+        <span className="line" />
         <ul>
           {props.project.technologies.map((tech, i) => {
             return (
