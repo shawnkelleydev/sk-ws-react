@@ -5,7 +5,7 @@ export const projects = [
     shortDesc: "My software engineering portfolio site.",
     description: [
       "A custom React / React Router v6 portfolio site with dynamic routing and data population as well as fully-implemented SASS.",
-      "This project is entirely WCAG AA and almost-entirely AAA compliant.",
+      "This project is highly accessible, with attention given to color contrast and markup heirarchy.",
     ],
     technologies: ["React", "React Router v6", "SASS"],
     live_link: "https://www.shawnkelley.dev",
@@ -18,7 +18,7 @@ export const projects = [
     shortDesc: "A website for my work in music composition.",
     description: [
       "This website is the home of my other life in music composition and features React with React Router v6 and SASS.",
-      "The project is entirely WCAG AA and almost-entirely AAA compliant.",
+      "This project is highly accessible, with attention given to color contrast and markup heirarchy.",
     ],
     technologies: ["React", "React Router v6", "SASS"],
     live_link: "https://www.shawnkelleymusic.com",
@@ -45,7 +45,7 @@ export const projects = [
     description: [
       "Whitney Kelley is a professional flutist and teacher in the Denver metro area.  She's also my wife!",
       "Her website is full-stack and features a React/React Router v6 front end with dynamic content as well as a node/express back end for handling users and contact requests.",
-      "Additionally, the project is fully accessible and almost 100% WCAG AAA compliant.",
+      "Additionally, the project is highly accessible, with attention given to color contrast and markup heirarchy.",
       "Whitney's the best teacher I've ever known.  If you and yours need flute lessons, I encourage you to reach out to her.",
     ],
     technologies: ["React", "React Router v6", "Node", "Express", "CSS"],
