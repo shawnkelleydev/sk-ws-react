@@ -1,5 +1,4 @@
 import { HashLink } from "react-router-hash-link";
-import linkedin from "../img/linkedin-white.png";
 import { useLocation } from "react-router-dom";
 
 const Menu = () => {
@@ -35,7 +34,11 @@ const Menu = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img src={linkedin} className="social" alt="linked in icon" />
+        <img
+          src={"../img/linkedin-white.png"}
+          className="social"
+          alt="linked in icon"
+        />
       </a>
     </nav>
   );
