@@ -4,7 +4,11 @@ import { HashLink } from "react-router-hash-link";
 const Home = () => {
   return (
     <div id="home" className="Home">
-      <img src={fam} alt="the kelley family" className="fam-front" />
+      <img
+        src={fam}
+        alt="the kelley family sitting on a log over a river in a wheat field"
+        className="fam-front"
+      />
 
       <div>
         <h1>Shawn Kelley</h1>

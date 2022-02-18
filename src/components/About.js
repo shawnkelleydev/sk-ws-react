@@ -8,7 +8,12 @@ const About = () => {
     <div className="content">
       <ul id="about">
         <li>
-          <img src={fam} alt="the kelley family" className="fam" id="fam" />
+          <img
+            src={fam}
+            alt="the kelley family sitting on a log over a river in a wheat field"
+            className="fam"
+            id="fam"
+          />
         </li>
         <li>
           <h2>about</h2>
@@ -23,13 +28,11 @@ const About = () => {
         </li>
         <li>
           <ul>
-            {skills.map((skill, i) => {
-              return (
-                <li className="skill" key={i}>
-                  {skill}
-                </li>
-              );
-            })}
+            {skills.map((skill, i) => (
+              <li className="skill" key={i}>
+                {skill}
+              </li>
+            ))}
           </ul>
         </li>
       </ul>
