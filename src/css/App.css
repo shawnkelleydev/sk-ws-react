@@ -318,38 +318,51 @@ nav a {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
-.fam-front {
-  width: 95vw;
+.Home {
+  width: 100vw;
   max-width: 900px;
-  margin-top: 10px;
-  border-radius: 12px;
-  box-shadow: 0 0 10px #535353;
+  display: grid;
+  align-items: stretch;
+  justify-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
-
-.home {
-  max-width: 900px;
+@media screen and (min-width: 768px) {
+  .Home {
+    justify-content: center;
+    padding-top: 64px;
+  }
+}
+.Home .fam-front {
   width: 95vw;
+  max-width: 400px;
+  border-radius: 50%;
+  margin: 0;
+  margin: 12px 0 48px 0;
+  box-shadow: 0 0 20px gray;
 }
-.home h1, .home h2 {
-  background: none;
-  padding: 0;
-  text-align: center;
+@media screen and (min-width: 768px) {
+  .Home .fam-front {
+    margin: 0;
+  }
 }
-.home a {
-  width: fit-content;
+.Home div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.home h1 {
-  margin-top: 50px;
+.Home div span {
+  border-bottom: 1px black solid;
+  width: 80vw;
+  max-width: 320px;
+  margin: 12px 0;
 }
-.home h2 {
-  margin: 20px;
-  text-transform: capitalize;
-  font-weight: 300;
-  font-size: 1.4em;
+.Home h2 {
+  font-size: 1em;
 }
-
-.learn-more {
-  margin: 50px;
+.Home a {
+  padding: 24px;
 }
 
 @media (min-width: 768px) {

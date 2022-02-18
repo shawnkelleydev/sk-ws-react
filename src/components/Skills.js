@@ -18,5 +18,5 @@ export const skills = [
   "VS Code",
   "RegEx",
   "OOP",
-  "Accessibility",
+  "WCAG",
 ];
