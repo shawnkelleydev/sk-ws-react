@@ -63,7 +63,7 @@ export const projects = [
     ],
     tag: "Tomorrow Land.  Shape tomorrow today.",
     technologies: ["React", "React Router v6", "SASS"],
-    live_link: "https://keen-perlman-642ce0.netlify.app",
+    live_link: "https://tomorrow-land-skd.netlify.app",
     github_link: "https://github.com/shawnkelleydev/tomorrow-land-fs",
     img: "../img/tl.png",
   },
