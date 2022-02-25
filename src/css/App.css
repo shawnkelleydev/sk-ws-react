@@ -356,7 +356,7 @@ nav a {
   justify-content: center;
 }
 .Home div span {
-  border-bottom: 1px black solid;
+  border-bottom: 1px gray solid;
   width: 80vw;
   max-width: 320px;
   margin: 12px 0;
