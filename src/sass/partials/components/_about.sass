@@ -5,6 +5,10 @@
   @media (min-width: variables.$break-tablet)
     grid-column: 2/3
     grid-row: 1/2
+  a
+    @media screen and (min-width: variables.$break-desktop)
+      @include mixins.line-anim
+  
 .skills
   ul
     display: flex
@@ -22,6 +26,11 @@
     grid-row: 1/2
     li
       width: 100% 
+  
+.see
+  margin: 50px 0
+  a 
+    padding-bottom: 4px
 
 .fam
   @include mixins.fam-pic

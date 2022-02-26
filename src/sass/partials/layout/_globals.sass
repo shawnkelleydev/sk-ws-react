@@ -49,20 +49,14 @@
 .show
   bottom: 80px
 
-.see
-  margin: 50px 0
-
 a
   text-decoration: none
   color: darken(variables.$color-headline, 10%)
   cursor: pointer
-  &:hover
-    text-decoration: underline
-
 
 ul
   list-style: none
-  padding: none
+  padding: 0
 
 div
   @include mixins.flexy($dir: column, $align: center)
@@ -97,6 +91,7 @@ button
   margin-bottom: 10px
   border: none
   font-size: 1.1em
+  transition: all .3s ease-out
   @media(min-width: variables.$break-desktop)
     &:hover
       background: darken(variables.$color-headline, 10%)

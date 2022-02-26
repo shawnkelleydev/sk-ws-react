@@ -6,7 +6,7 @@ import { skills } from "./Skills";
 const About = () => {
   return (
     <div className="content">
-      <ul id="about">
+      <ul className="about">
         <li>
           <img
             src={fam}

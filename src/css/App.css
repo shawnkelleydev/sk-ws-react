@@ -63,22 +63,15 @@
   bottom: 80px;
 }
 
-.see {
-  margin: 50px 0;
-}
-
 a {
   text-decoration: none;
   color: #005c7a;
   cursor: pointer;
 }
-a:hover {
-  text-decoration: underline;
-}
 
 ul {
   list-style: none;
-  padding: none;
+  padding: 0;
 }
 
 div {
@@ -123,6 +116,7 @@ button {
   margin-bottom: 10px;
   border: none;
   font-size: 1.1em;
+  transition: all 0.3s ease-out;
 }
 @media (min-width: 962px) {
   button:hover {
@@ -289,11 +283,12 @@ nav a {
   align-items: center;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
 }
 @media (min-width: 768px) {
   nav a {
     background: none;
+    padding: 4px 0;
     color: white;
     height: fit-content;
     align-self: center;
@@ -302,9 +297,26 @@ nav a {
   nav a:nth-child(-n+2) {
     margin-right: 50px;
   }
+}
+@media (min-width: 962px) {
+  nav a:nth-child(-n+2) {
+    position: relative;
+  }
+  nav a:nth-child(-n+2)::before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease-out;
+  }
+  nav a:nth-child(-n+2):hover::before {
+    width: 100%;
+  }
   nav a:hover {
     color: #EFC79A;
-    text-decoration: none;
   }
 }
 
@@ -365,13 +377,49 @@ nav a {
   font-size: 1em;
 }
 .Home a {
-  padding: 24px;
+  padding: 24px 0 4px 0;
+}
+@media screen and (min-width: 962px) {
+  .Home a {
+    position: relative;
+  }
+  .Home a::before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease-out;
+  }
+  .Home a:hover::before {
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) {
   .about {
     grid-column: 2/3;
     grid-row: 1/2;
+  }
+}
+@media screen and (min-width: 962px) {
+  .about a {
+    position: relative;
+  }
+  .about a::before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease-out;
+  }
+  .about a:hover::before {
+    width: 100%;
   }
 }
 
@@ -394,6 +442,13 @@ nav a {
   .skills li {
     width: 100%;
   }
+}
+
+.see {
+  margin: 50px 0;
+}
+.see a {
+  padding-bottom: 4px;
 }
 
 .fam {
@@ -438,6 +493,27 @@ nav a {
   flex-direction: column;
   align-items: flex-start;
 }
+.Project .back {
+  padding-bottom: 4px;
+}
+@media screen and (min-width: 962px) {
+  .Project .back {
+    position: relative;
+  }
+  .Project .back::before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease-out;
+  }
+  .Project .back:hover::before {
+    width: 100%;
+  }
+}
 .Project h1, .Project h2 {
   text-align: left;
   width: 100%;
@@ -450,7 +526,7 @@ nav a {
   margin-bottom: 24px;
 }
 .Project .btns {
-  margin-top: 24px;
+  margin: 24px 0 48px 0;
 }
 @media (min-width: 768px) {
   .Project {

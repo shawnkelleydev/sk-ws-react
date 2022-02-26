@@ -6,13 +6,13 @@ const Bio = () => {
       <li className="bottom20">
         A seasoned musician and teacher, Shawn fell in love with programming in
         mid-2021 and never looked back. He loves intellectual challenges and
-        completed the{" "}
+        completed the Full-Stack JavaScript{" "}
         <a
           href="https://www.credential.net/a6e6f1aa-8bbc-49c8-99c3-a3929351c6d5#gs.jddjgk"
           target="_blank"
           rel="noreferrer"
         >
-          Full-Stack JavaScript Techdegree
+          Techdegree
         </a>{" "}
         at{" "}
         <a
